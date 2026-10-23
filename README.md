@@ -15,7 +15,7 @@ Packs are namespaced, versioned, reviewable collections of themes, effects, comp
 ## CLI preview
 
 ```bash
-cargo install --path crates/cybercore-pack
+cargo install --git https://github.com/cybercoretech/cybercore-packs --package cybercore-pack
 cybercore-pack search theme
 cybercore-pack install cybercore.themes@1.0.0
 cybercore-pack list
@@ -27,6 +27,12 @@ cybercore-control pack install cybercore.cyberdark-wallpapers
 ```
 
 Installation is project-local: manifests are written under `.cybercore/packs/` and exact selections are recorded in `.cybercore/packs.lock.json`. Set `CYBERCORE_PACK_REGISTRY` to use a private or mirrored registry.
+
+Once the crate is published to crates.io, the equivalent install is:
+
+```bash
+cargo install cybercore-pack
+```
 
 ## Release contract
 

@@ -1,0 +1,11 @@
+[package]
+name = "cybercore-pack"
+version = "0.1.0"
+description = "Command-line pack manager for Cybercore"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+cybercore-packs = { path = "../cybercore-packs" }
+serde_json.workspace = true

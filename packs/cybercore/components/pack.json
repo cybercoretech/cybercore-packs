@@ -1,0 +1,15 @@
+{
+  "id": "cybercore.components",
+  "version": "1.0.0",
+  "kind": "components-pack",
+  "channel": "stable",
+  "license": "MIT",
+  "compatibility": { "control_plane": ">=0.1.0", "web_kit": ">=1.0.0" },
+  "dependencies": [],
+  "resources": [],
+  "provenance": {
+    "source": "https://github.com/cybercoretech/cybercore-packs",
+    "author": "Cybercore Tech",
+    "reviewed": true
+  }
+}

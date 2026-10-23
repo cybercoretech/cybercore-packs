@@ -1,0 +1,24 @@
+name: Validate packs
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          toolchain: stable
+      - name: Validate JSON and manifests
+        run: |
+          find registry schemas packs -name '*.json' -print0 | xargs -0 -n1 jq empty
+          cargo test --workspace
+          cargo run --quiet --bin cybercore-pack -- search cybercore

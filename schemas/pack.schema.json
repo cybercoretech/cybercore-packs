@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cybercore Pack Manifest",
+  "type": "object",
+  "required": ["id", "version", "kind", "channel", "license", "provenance"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9_-]+\\.[a-z0-9._-]+$" },
+    "version": { "type": "string" },
+    "kind": { "type": "string" },
+    "channel": { "enum": ["stable", "beta", "nightly"] },
+    "license": { "type": "string" },
+    "compatibility": { "type": "object" },
+    "dependencies": { "type": "array" },
+    "resources": { "type": "array" },
+    "provenance": { "type": "object" }
+  }
+}

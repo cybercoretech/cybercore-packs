@@ -1,0 +1,15 @@
+{
+  "id": "cybercore.snippets",
+  "version": "1.0.0",
+  "kind": "snippet-pack",
+  "channel": "stable",
+  "license": "MIT",
+  "compatibility": { "control_plane": ">=0.1.0" },
+  "dependencies": [],
+  "resources": [],
+  "provenance": {
+    "source": "https://github.com/cybercoretech/cybercore-packs",
+    "author": "Cybercore Tech",
+    "reviewed": true
+  }
+}

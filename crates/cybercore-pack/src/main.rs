@@ -29,12 +29,16 @@ fn registry_root() -> String {
 }
 
 fn fetch(url: &str) -> Result<String, Box<dyn std::error::Error>> {
-    Ok(ureq::get(url).call()?.into_string()?)
+    Ok(ureq::get(url)
+        .set("Cache-Control", "no-cache")
+        .call()?
+        .into_string()?)
 }
 
 fn fetch_bytes(url: &str) -> Result<Vec<u8>, Box<dyn std::error::Error>> {
     let mut bytes = Vec::new();
     ureq::get(url)
+        .set("Cache-Control", "no-cache")
         .call()?
         .into_reader()
         .read_to_end(&mut bytes)?;

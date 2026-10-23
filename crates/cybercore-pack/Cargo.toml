@@ -14,3 +14,7 @@ ureq = { version = "2", features = ["json"] }
 [[bin]]
 name = "cybercore-control"
 path = "src/main.rs"
+
+[[bin]]
+name = "cybercore-pack"
+path = "src/main.rs"

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">Cybercore signal asset</title>
+  <path d="M60 6 108 34v52l-48 28L12 86V34z" fill="#09080f" stroke="#00e5ff" stroke-width="3"/>
+  <path d="M60 24v72M28 42l64 36M92 42 28 78" fill="none" stroke="#39ff33" stroke-width="2"/>
+  <circle cx="60" cy="60" r="9" fill="#ff147f"/>
+</svg>

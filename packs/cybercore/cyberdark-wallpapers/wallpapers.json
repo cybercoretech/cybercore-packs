@@ -1,0 +1,10 @@
+{
+  "format": "cybercore-wallpaper-payload",
+  "wallpapers": [
+    {
+      "id": "cyberdark-grid",
+      "source": "https://cybercoretech.github.io/data/wallpapers/cyberdark-grid.svg",
+      "license": "MIT"
+    }
+  ]
+}

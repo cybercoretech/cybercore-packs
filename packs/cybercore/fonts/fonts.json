@@ -1,0 +1,15 @@
+{
+  "format": "cybercore-font-payload",
+  "fonts": [
+    {
+      "family": "Oxanium",
+      "source": "https://fonts.google.com/specimen/Oxanium",
+      "role": "display"
+    },
+    {
+      "family": "Share Tech Mono",
+      "source": "https://fonts.google.com/specimen/Share+Tech+Mono",
+      "role": "mono"
+    }
+  ]
+}

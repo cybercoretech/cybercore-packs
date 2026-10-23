@@ -6,7 +6,14 @@
   "license": "MIT",
   "compatibility": { "control_plane": ">=0.1.0", "web_kit": ">=1.0.0" },
   "dependencies": [],
-  "resources": [],
+  "resources": [
+    {
+      "id": "effect.neon-border",
+      "kind": "effect-css",
+      "path": "packs/cybercore/effects/effects.css",
+      "sha256": "e02424a0aed6347dd90e09cad47e96abaa9af63c722d7bfbe2e15b6486a6dec8"
+    }
+  ],
   "provenance": {
     "source": "https://github.com/cybercoretech/cybercore-packs",
     "author": "Cybercore Tech",

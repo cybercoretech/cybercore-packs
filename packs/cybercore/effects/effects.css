@@ -1,0 +1,9 @@
+/* Starter Cybercore effects payload. */
+.cc-effect-neon-border {
+  border: 1px solid var(--cyan);
+  box-shadow: 0 0 1rem color-mix(in srgb, var(--cyan) 30%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cc-effect-neon-border { box-shadow: none; }
+}

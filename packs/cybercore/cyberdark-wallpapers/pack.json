@@ -6,7 +6,14 @@
   "license": "MIT",
   "compatibility": { "control_plane": ">=0.1.0" },
   "dependencies": [],
-  "resources": [],
+  "resources": [
+    {
+      "id": "wallpaper.cyberdark-grid",
+      "kind": "wallpaper-index",
+      "path": "packs/cybercore/cyberdark-wallpapers/wallpapers.json",
+      "sha256": "502c8139321b7362999eb4d65b40acd597a63204283874635957744f0cbd10d4"
+    }
+  ],
   "provenance": {
     "source": "https://github.com/cybercoretech/cybercore-packs",
     "author": "Cybercore Tech",

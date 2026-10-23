@@ -1,0 +1,10 @@
+{
+  "format": "cybercore-theme-payload",
+  "themes": [
+    {
+      "id": "cybercore-neon",
+      "family": "cybercore-tech",
+      "source": "https://cybercoretech.github.io/data/themes/cybercore-tech/cybercore-tech.json"
+    }
+  ]
+}

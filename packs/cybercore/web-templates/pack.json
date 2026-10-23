@@ -6,7 +6,14 @@
   "license": "MIT",
   "compatibility": { "control_plane": ">=0.1.0", "web_kit": ">=1.0.0" },
   "dependencies": [],
-  "resources": [],
+  "resources": [
+    {
+      "id": "template.cybercore-surface",
+      "kind": "html-template",
+      "path": "packs/cybercore/web-templates/template.html",
+      "sha256": "80fd73ab4921b58e56d83976ef377aa3c3d3f36caef6107913830f5e95959872"
+    }
+  ],
   "provenance": {
     "source": "https://github.com/cybercoretech/cybercore-packs",
     "author": "Cybercore Tech",

@@ -6,7 +6,14 @@
   "license": "MIT",
   "compatibility": { "control_plane": ">=0.1.0", "web_kit": ">=1.0.0" },
   "dependencies": [],
-  "resources": [],
+  "resources": [
+    {
+      "id": "theme.cybercore-neon",
+      "kind": "theme-index",
+      "path": "packs/cybercore/themes/themes.json",
+      "sha256": "9eccafeab19349c7760e1267de4f7beedcaf2fdc2542d162faa6e216c9bf53ab"
+    }
+  ],
   "provenance": {
     "source": "https://github.com/cybercoretech/cybercore-packs",
     "author": "Cybercore Tech",

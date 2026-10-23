@@ -1,0 +1,10 @@
+{
+  "format": "cybercore-snippet-payload",
+  "snippets": [
+    {
+      "id": "snippet.theme-loader",
+      "language": "javascript",
+      "description": "Load a governed Cybercore theme document."
+    }
+  ]
+}

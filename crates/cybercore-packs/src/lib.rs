@@ -1,6 +1,9 @@
 use serde::{Deserialize, Serialize};
 use sha2::{Digest, Sha256};
-use std::{fs, path::{Path, PathBuf}};
+use std::{
+    fs,
+    path::{Component, Path, PathBuf},
+};
 use thiserror::Error;
 
 #[derive(Debug, Error)]
@@ -12,7 +15,11 @@ pub enum PackError {
     #[error("invalid pack: {0}")]
     Invalid(String),
     #[error("checksum mismatch for {path}: expected {expected}, got {actual}")]
-    ChecksumMismatch { path: String, expected: String, actual: String },
+    ChecksumMismatch {
+        path: String,
+        expected: String,
+        actual: String,
+    },
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -79,17 +86,54 @@ impl PackManifest {
 
     pub fn validate(&self) -> Result<(), PackError> {
         if self.id.split('.').count() < 2 {
-            return Err(PackError::Invalid(format!("pack ID must be namespaced: {}", self.id)));
+            return Err(PackError::Invalid(format!(
+                "pack ID must be namespaced: {}",
+                self.id
+            )));
         }
         if self.version.is_empty() || self.kind.is_empty() || self.license.is_empty() {
-            return Err(PackError::Invalid(format!("{} has incomplete identity fields", self.id)));
+            return Err(PackError::Invalid(format!(
+                "{} has incomplete identity fields",
+                self.id
+            )));
         }
         if !self.provenance.source.starts_with("https://") {
-            return Err(PackError::Invalid(format!("{} provenance source must use https", self.id)));
+            return Err(PackError::Invalid(format!(
+                "{} provenance source must use https",
+                self.id
+            )));
         }
         for resource in &self.resources {
-            if resource.id.is_empty() || resource.path.starts_with('/') || resource.sha256.len() != 64 {
-                return Err(PackError::Invalid(format!("{} has an invalid resource entry", self.id)));
+            let path = Path::new(&resource.path);
+            if resource.id.is_empty()
+                || resource.path.is_empty()
+                || resource.sha256.len() != 64
+                || path.components().any(|component| {
+                    matches!(
+                        component,
+                        Component::RootDir | Component::ParentDir | Component::Prefix(_)
+                    )
+                })
+            {
+                return Err(PackError::Invalid(format!(
+                    "{} has an invalid resource entry",
+                    self.id
+                )));
+            }
+        }
+        Ok(())
+    }
+
+    pub fn verify_resources(&self, root: impl AsRef<Path>) -> Result<(), PackError> {
+        for resource in &self.resources {
+            let path = root.as_ref().join(&resource.path);
+            let actual = sha256_file(&path)?;
+            if actual != resource.sha256 {
+                return Err(PackError::ChecksumMismatch {
+                    path: resource.path.clone(),
+                    expected: resource.sha256.clone(),
+                    actual,
+                });
             }
         }
         Ok(())
@@ -181,7 +225,11 @@ impl PackLock {
 
 pub fn sha256_file(path: impl AsRef<Path>) -> Result<String, PackError> {
     let bytes = fs::read(path)?;
-    Ok(format!("{:x}", Sha256::digest(bytes)))
+    Ok(sha256_bytes(&bytes))
+}
+
+pub fn sha256_bytes(bytes: &[u8]) -> String {
+    format!("{:x}", Sha256::digest(bytes))
 }
 
 pub fn resolve_manifest_path(root: impl AsRef<Path>, entry: &RegistryEntry) -> PathBuf {

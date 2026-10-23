@@ -6,7 +6,14 @@
   "license": "MIT",
   "compatibility": { "control_plane": ">=0.1.0", "web_kit": ">=1.0.0" },
   "dependencies": [],
-  "resources": [],
+  "resources": [
+    {
+      "id": "font.cybercore-display",
+      "kind": "font-index",
+      "path": "packs/cybercore/fonts/fonts.json",
+      "sha256": "8afc2494c442135d823389c6fef095a7317bdceed9b0047ef6c15f3b75a2665a"
+    }
+  ],
   "provenance": {
     "source": "https://github.com/cybercoretech/cybercore-packs",
     "author": "Cybercore Tech",

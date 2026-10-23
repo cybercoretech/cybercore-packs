@@ -1,5 +1,9 @@
-use cybercore_packs::{PackLock, PackManifest, Registry, RegistryEntry};
-use std::{env, fs, path::{Path, PathBuf}};
+use cybercore_packs::{sha256_bytes, PackLock, PackManifest, Registry, RegistryEntry};
+use std::{
+    env, fs,
+    io::Read,
+    path::{Path, PathBuf},
+};
 
 const DEFAULT_REGISTRY: &str =
     "https://raw.githubusercontent.com/cybercoretech/cybercore-packs/main/registry/index.json";
@@ -28,6 +32,15 @@ fn fetch(url: &str) -> Result<String, Box<dyn std::error::Error>> {
     Ok(ureq::get(url).call()?.into_string()?)
 }
 
+fn fetch_bytes(url: &str) -> Result<Vec<u8>, Box<dyn std::error::Error>> {
+    let mut bytes = Vec::new();
+    ureq::get(url)
+        .call()?
+        .into_reader()
+        .read_to_end(&mut bytes)?;
+    Ok(bytes)
+}
+
 fn load_registry() -> Result<Registry, Box<dyn std::error::Error>> {
     Ok(serde_json::from_str(&fetch(&registry_url())?)?)
 }
@@ -39,12 +52,15 @@ fn split_spec(spec: &str) -> (&str, Option<&str>) {
     }
 }
 
-fn select_entry<'a>(registry: &'a Registry, spec: &str) -> Result<&'a RegistryEntry, Box<dyn std::error::Error>> {
+fn select_entry<'a>(
+    registry: &'a Registry,
+    spec: &str,
+) -> Result<&'a RegistryEntry, Box<dyn std::error::Error>> {
     let (id, version) = split_spec(spec);
     registry
         .packs
         .iter()
-        .find(|pack| pack.id == id && version.map_or(true, |v| pack.version == v))
+        .find(|pack| pack.id == id && version.is_none_or(|v| pack.version == v))
         .ok_or_else(|| format!("pack not found in registry: {spec}").into())
 }
 
@@ -57,13 +73,36 @@ fn install(entry: &RegistryEntry) -> Result<(), Box<dyn std::error::Error>> {
     fs::create_dir_all(&root)?;
     let manifest_url = format!("{}{}", registry_root(), entry.manifest);
     let manifest_path = root.join("pack.json");
-    fs::write(&manifest_path, fetch(&manifest_url)?)?;
+    let manifest_bytes = fetch_bytes(&manifest_url)?;
+    let manifest: PackManifest = serde_json::from_slice(&manifest_bytes)?;
+    manifest.validate()?;
+    fs::write(&manifest_path, manifest_bytes)?;
+    for resource in &manifest.resources {
+        let resource_url = format!("{}{}", registry_root(), resource.path);
+        let bytes = fetch_bytes(&resource_url)?;
+        let actual = sha256_bytes(&bytes);
+        if actual != resource.sha256 {
+            return Err(format!(
+                "checksum mismatch for {}: expected {}, got {}",
+                resource.path, resource.sha256, actual
+            )
+            .into());
+        }
+        let resource_path = root.join(&resource.path);
+        if let Some(parent) = resource_path.parent() {
+            fs::create_dir_all(parent)?;
+        }
+        fs::write(resource_path, bytes)?;
+    }
 
     let lock_path = lock_path();
     let mut lock = if lock_path.exists() {
         PackLock::load(&lock_path)?
     } else {
-        PackLock { lockfile_version: 1, packs: Vec::new() }
+        PackLock {
+            lockfile_version: 1,
+            packs: Vec::new(),
+        }
     };
     lock.add(entry);
     if let Some(pack) = lock.packs.iter_mut().find(|pack| pack.id == entry.id) {
@@ -71,7 +110,12 @@ fn install(entry: &RegistryEntry) -> Result<(), Box<dyn std::error::Error>> {
         pack.install_path = Some(root.to_string_lossy().into_owned());
     }
     lock.save(&lock_path)?;
-    println!("installed {} {} at {}", entry.id, entry.version, root.display());
+    println!(
+        "installed {} {} at {}",
+        entry.id,
+        entry.version,
+        root.display()
+    );
     Ok(())
 }
 
@@ -122,15 +166,23 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         "lock" => {
             let path = lock_path();
             if !path.exists() {
-                PackLock { lockfile_version: 1, packs: Vec::new() }.save(&path)?;
+                PackLock {
+                    lockfile_version: 1,
+                    packs: Vec::new(),
+                }
+                .save(&path)?;
             }
             println!("lockfile ready: {}", path.display());
         }
         "verify" => {
             let lock = PackLock::load(lock_path())?;
             for pack in lock.packs {
-                let path = pack.install_path.ok_or_else(|| format!("{} has no install path", pack.id))?;
-                PackManifest::from_path(Path::new(&path).join("pack.json"))?;
+                let path = pack
+                    .install_path
+                    .ok_or_else(|| format!("{} has no install path", pack.id))?;
+                let root = PathBuf::from(path);
+                let manifest = PackManifest::from_path(root.join("pack.json"))?;
+                manifest.verify_resources(&root)?;
             }
             println!("pack lock verified");
         }

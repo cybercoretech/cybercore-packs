@@ -1,0 +1,10 @@
+{
+  "format": "cybercore-component-payload",
+  "components": [
+    {
+      "id": "component.cyber-card",
+      "selector": "[data-cybercore-component='cyber-card']",
+      "status": "stable"
+    }
+  ]
+}

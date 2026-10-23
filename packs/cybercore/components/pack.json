@@ -6,7 +6,14 @@
   "license": "MIT",
   "compatibility": { "control_plane": ">=0.1.0", "web_kit": ">=1.0.0" },
   "dependencies": [],
-  "resources": [],
+  "resources": [
+    {
+      "id": "component.cyber-card",
+      "kind": "component-index",
+      "path": "packs/cybercore/components/components.json",
+      "sha256": "c3c12350850db83d8efd7a3ccfbb488011fc713ec4fceccd5347775a7b488646"
+    }
+  ],
   "provenance": {
     "source": "https://github.com/cybercoretech/cybercore-packs",
     "author": "Cybercore Tech",

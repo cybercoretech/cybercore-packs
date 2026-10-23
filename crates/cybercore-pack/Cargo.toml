@@ -9,3 +9,8 @@ repository.workspace = true
 [dependencies]
 cybercore-packs = { path = "../cybercore-packs" }
 serde_json.workspace = true
+ureq = { version = "2", features = ["json"] }
+
+[[bin]]
+name = "cybercore-control"
+path = "src/main.rs"

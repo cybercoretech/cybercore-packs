@@ -17,12 +17,16 @@ Packs are namespaced, versioned, reviewable collections of themes, effects, comp
 ```bash
 cargo install --path crates/cybercore-pack
 cybercore-pack search theme
-cybercore-pack add cybercore.themes
-cybercore-pack lock
+cybercore-pack install cybercore.themes@1.0.0
+cybercore-pack list
 cybercore-pack verify
+
+# Control Plane spelling
+cybercore-control pack search cyberdark
+cybercore-control pack install cybercore.cyberdark-wallpapers
 ```
 
-The Control Plane will eventually expose the same workflow through `cybercore-control pack ...`, while this CLI remains useful for projects that only need pack management.
+Installation is project-local: manifests are written under `.cybercore/packs/` and exact selections are recorded in `.cybercore/packs.lock.json`. Set `CYBERCORE_PACK_REGISTRY` to use a private or mirrored registry.
 
 ## Release contract
 

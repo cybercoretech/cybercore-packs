@@ -138,6 +138,10 @@ pub struct LockedPack {
     pub version: String,
     pub manifest: String,
     pub archive: Option<String>,
+    #[serde(default)]
+    pub source: Option<String>,
+    #[serde(default)]
+    pub install_path: Option<String>,
 }
 
 impl PackLock {
@@ -160,6 +164,8 @@ impl PackLock {
             version: entry.version.clone(),
             manifest: entry.manifest.clone(),
             archive: entry.archive.clone(),
+            source: None,
+            install_path: None,
         });
         self.packs.sort_by(|a, b| a.id.cmp(&b.id));
     }

@@ -1,21 +1,97 @@
 {
   "id": "cybercore.cyberdark-wallpapers",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "kind": "wallpaper-pack",
   "channel": "stable",
+  "title": "CyberDark Wallpapers",
+  "description": "4K SVG desktop wallpapers with an index and the theme-to-wallpaper assignments from cybergrid.json.",
   "license": "MIT",
-  "compatibility": { "control_plane": ">=0.1.0" },
+  "compatibility": {
+    "control_plane": ">=0.1.0"
+  },
   "dependencies": [],
   "resources": [
     {
-      "id": "wallpaper.cyberdark-grid",
-      "kind": "wallpaper-index",
+      "id": "wallpaper.auxiliary-ops.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/cyberdark-wallpapers/auxiliary-ops.svg",
+      "sha256": "ae45efe631cb0e47fd092a6b693ff82b282bbd1f86f531a261fc70e1836d1e58"
+    },
+    {
+      "id": "wallpaper.blacksite-command.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/cyberdark-wallpapers/blacksite-command.svg",
+      "sha256": "a66471328c4a1bec50450a59e1b3d86e178718e6188a83e89058cde98aa55cc8"
+    },
+    {
+      "id": "wallpaper.containment-grid.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/cyberdark-wallpapers/containment-grid.svg",
+      "sha256": "446bdd741c79742bc504b715bf3abc6ec790662dd5aec74196e4c256fe3911a3"
+    },
+    {
+      "id": "wallpaper.core-reactor.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/cyberdark-wallpapers/core-reactor.svg",
+      "sha256": "99f15a9f40980ce54fb1826a47aadace817d164cebddb266caa33ff3d465c171"
+    },
+    {
+      "id": "wallpaper.darkmesh-node.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/cyberdark-wallpapers/darkmesh-node.svg",
+      "sha256": "dba26b51605fcff7b432cd1f061bda678aea1777c6782c8898134f7651f5be71"
+    },
+    {
+      "id": "wallpaper.ghost-network.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/cyberdark-wallpapers/ghost-network.svg",
+      "sha256": "0e5aaaaa2b5e8a970ab3ad23167496fbe18d02341976b6a8090bfb465745200a"
+    },
+    {
+      "id": "wallpaper.midnight-datacenter.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/cyberdark-wallpapers/midnight-datacenter.svg",
+      "sha256": "bfc10c1d88a87bbea71afda97a9815955f19f4490f4feb01959a28d5f8482f6c"
+    },
+    {
+      "id": "wallpaper.neon-server-vault.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/cyberdark-wallpapers/neon-server-vault.svg",
+      "sha256": "2c1ac7ba23fc487b312f93296a968237772d6ef688629ee574c63beaee2112b9"
+    },
+    {
+      "id": "wallpaper.orbital-compute.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/cyberdark-wallpapers/orbital-compute.svg",
+      "sha256": "a874f87bfe87aed803ecf2f7757d5749084f86c58e0dc041683f050aa676b2f7"
+    },
+    {
+      "id": "wallpaper.quantum-rack-array.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/cyberdark-wallpapers/quantum-rack-array.svg",
+      "sha256": "41df89288ce11d0058aa3e2a97fefc0e845d6235912d5b1aa48b7e44ba321e35"
+    },
+    {
+      "id": "wallpaper.signal-forge.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/cyberdark-wallpapers/signal-forge.svg",
+      "sha256": "32398dbc3628d00a1b9c780487bf5168397f716edf07f44eaa06176fe46fb658"
+    },
+    {
+      "id": "wallpaper.wallpapers.json",
+      "kind": "index",
       "path": "packs/cybercore/cyberdark-wallpapers/wallpapers.json",
-      "sha256": "502c8139321b7362999eb4d65b40acd597a63204283874635957744f0cbd10d4"
+      "sha256": "71714e821096aa77efe68640571f659244a3566e7edfcf1fbad1b655f584ebc3"
+    },
+    {
+      "id": "wallpaper.zero-day-bunker.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/cyberdark-wallpapers/zero-day-bunker.svg",
+      "sha256": "92380f56423f00c7da8ae68ea99ac43a18df5e5615b5f5260ed224ea7a981d01"
     }
   ],
   "provenance": {
-    "source": "https://github.com/cybercoretech/cybercore-packs",
+    "source": "https://github.com/cybercoretech/cybercore",
     "author": "Cybercore Tech",
     "reviewed": true
   }

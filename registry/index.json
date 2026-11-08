@@ -3,7 +3,7 @@
   "packs": [
     {
       "id": "cybercore.themes",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "kind": "theme-pack",
       "channel": "stable",
       "manifest": "packs/cybercore/themes/pack.json",
@@ -11,7 +11,7 @@
     },
     {
       "id": "cybercore.effects",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "kind": "effects-pack",
       "channel": "stable",
       "manifest": "packs/cybercore/effects/pack.json",
@@ -19,7 +19,7 @@
     },
     {
       "id": "cybercore.components",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "kind": "components-pack",
       "channel": "stable",
       "manifest": "packs/cybercore/components/pack.json",
@@ -27,7 +27,7 @@
     },
     {
       "id": "cybercore.cyberdark-wallpapers",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "kind": "wallpaper-pack",
       "channel": "stable",
       "manifest": "packs/cybercore/cyberdark-wallpapers/pack.json",
@@ -35,7 +35,7 @@
     },
     {
       "id": "cybercore.snippets",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "kind": "snippet-pack",
       "channel": "stable",
       "manifest": "packs/cybercore/snippets/pack.json",
@@ -43,7 +43,7 @@
     },
     {
       "id": "cybercore.fonts",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "kind": "font-pack",
       "channel": "stable",
       "manifest": "packs/cybercore/fonts/pack.json",
@@ -51,7 +51,7 @@
     },
     {
       "id": "cybercore.svg-assets",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "kind": "svg-pack",
       "channel": "stable",
       "manifest": "packs/cybercore/svg-assets/pack.json",
@@ -59,7 +59,7 @@
     },
     {
       "id": "cybercore.web-templates",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "kind": "template-pack",
       "channel": "stable",
       "manifest": "packs/cybercore/web-templates/pack.json",

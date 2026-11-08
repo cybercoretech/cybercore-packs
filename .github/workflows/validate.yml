@@ -21,4 +21,5 @@ jobs:
         run: |
           find registry schemas packs -name '*.json' -print0 | xargs -0 -n1 jq empty
           cargo test --workspace
+          cargo run --quiet --example verify_registry
           cargo run --quiet --bin cybercore-pack -- search cybercore

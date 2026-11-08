@@ -1,21 +1,152 @@
 {
   "id": "cybercore.svg-assets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "kind": "svg-pack",
   "channel": "stable",
+  "title": "Cybercore SVG Assets",
+  "description": "Cybercore logos, wordmarks, headers, social card, divider and the app icon at every size, with an index of titles.",
   "license": "MIT",
-  "compatibility": { "control_plane": ">=0.1.0", "web_kit": ">=1.0.0" },
+  "compatibility": {
+    "control_plane": ">=0.1.0",
+    "web_kit": ">=1.0.0"
+  },
   "dependencies": [],
   "resources": [
     {
-      "id": "asset.cybercore-signal",
+      "id": "asset.assets.json",
+      "kind": "index",
+      "path": "packs/cybercore/svg-assets/assets.json",
+      "sha256": "2aa25beea0c895c230b09a2a8628e0b9df9f1d4ac988108f646f9b1da504037e"
+    },
+    {
+      "id": "asset.cybercore-favicon.svg",
       "kind": "svg",
-      "path": "packs/cybercore/svg-assets/assets.svg",
-      "sha256": "0625af0ca93f013953e9ecfdc6f82763e19b67d15add065f748a69ec305dc0c7"
+      "path": "packs/cybercore/svg-assets/cybercore-favicon.svg",
+      "sha256": "8a88f12efcac670435cb6f7d34afc9b5fa61592f46feb5015348c8c46ee1aaa0"
+    },
+    {
+      "id": "asset.cybercore-hero.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/cybercore-hero.svg",
+      "sha256": "b03c88fba243d9c04455734bc135134f260564b50a2d081036477ef4f2f80284"
+    },
+    {
+      "id": "asset.cybercore-icon.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/cybercore-icon.svg",
+      "sha256": "5f927d3e4f76e3f42acbe6f242b5fb0081b269d48c0712c5437da01f7581a7fb"
+    },
+    {
+      "id": "asset.cybercore-site-divider.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/cybercore-site-divider.svg",
+      "sha256": "57c4c53cab2d5c7085a98aaa4d78d461954fcb5e5aeb56cb513469abbc75154a"
+    },
+    {
+      "id": "asset.cybercore-social-card.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/cybercore-social-card.svg",
+      "sha256": "a892e3be285b9eab14a55bb36554eeb0308b20c677eccbc17b73fb455cbc4e0b"
+    },
+    {
+      "id": "asset.cybercore-wordmark-compact.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/cybercore-wordmark-compact.svg",
+      "sha256": "ccd3f3228d04d9a1c462a19f08640e0411ac6275369c7873797b227bc41f3305"
+    },
+    {
+      "id": "asset.cybercore-wordmark-mono.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/cybercore-wordmark-mono.svg",
+      "sha256": "da8d7835cfc9c1e139722af3fc3647e4edc9087d300a8bafa18739ea0d703073"
+    },
+    {
+      "id": "asset.cybercore-wordmark.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/cybercore-wordmark.svg",
+      "sha256": "8f82d70eafdbdecc633caa16316e3b42895d1ec2223afdece99cf6aea2860fb5"
+    },
+    {
+      "id": "asset.header-neon.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/header-neon.svg",
+      "sha256": "911aa9cf269b37b844e53b107d158983143aa1803aaac00b89246d2198af931b"
+    },
+    {
+      "id": "asset.header-stacked.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/header-stacked.svg",
+      "sha256": "04554c8ef070a93fdbc2faa4d5394cc68fca16f65e38fcfa85692a315a38354d"
+    },
+    {
+      "id": "asset.icons.cybercore-icon-128.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/icons/cybercore-icon-128.svg",
+      "sha256": "34544bb988e17ec8fe177e0b311be6ea30e43b068d0ed71ded0402e7fed210e9"
+    },
+    {
+      "id": "asset.icons.cybercore-icon-16.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/icons/cybercore-icon-16.svg",
+      "sha256": "ebbe57cdace147947bb9a86ba1163b06970f224f7200540f3319ba7cd268d916"
+    },
+    {
+      "id": "asset.icons.cybercore-icon-192.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/icons/cybercore-icon-192.svg",
+      "sha256": "e4a56764a16b2c359bd0af0949459c0156fd112c0018996f5f9e5b48ad0225ee"
+    },
+    {
+      "id": "asset.icons.cybercore-icon-256.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/icons/cybercore-icon-256.svg",
+      "sha256": "ba65722be21da3cba32323f493ad272cca3fc5f78adb77fd6af5861595ae9ebe"
+    },
+    {
+      "id": "asset.icons.cybercore-icon-32.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/icons/cybercore-icon-32.svg",
+      "sha256": "81aa9919c661b287a543bb2e102d41408b81b08a6aea6d5083b584abe92a4120"
+    },
+    {
+      "id": "asset.icons.cybercore-icon-384.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/icons/cybercore-icon-384.svg",
+      "sha256": "d71f40900d810146361c2d89c9607ddee5d826bc2c2b9f412c0985b0aaa54d5f"
+    },
+    {
+      "id": "asset.icons.cybercore-icon-48.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/icons/cybercore-icon-48.svg",
+      "sha256": "5b7abb9439229f1ec38d64566cfb71e0f232ef58b5ac3badf1eb1d4f03a44fe3"
+    },
+    {
+      "id": "asset.icons.cybercore-icon-512.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/icons/cybercore-icon-512.svg",
+      "sha256": "1718c3fff25750c0e924d19d75cadc7262d3f53d534b3e498b3ed301c4011a96"
+    },
+    {
+      "id": "asset.icons.cybercore-icon-64.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/icons/cybercore-icon-64.svg",
+      "sha256": "c8265e4260bcac08f7729537b687f82c4c062cfdc44eed823beb81bf8f45f0e3"
+    },
+    {
+      "id": "asset.icons.cybercore-icon-96.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/icons/cybercore-icon-96.svg",
+      "sha256": "33f92dcf21147e95e52cf09cc491d163466792e10a318d0e9854c201d66d725b"
+    },
+    {
+      "id": "asset.logo-schema-seal.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/svg-assets/logo-schema-seal.svg",
+      "sha256": "eef25e4e1a03879bd40df8378a280e6a85f530e91a4ab903be0948284aae77f4"
     }
   ],
   "provenance": {
-    "source": "https://github.com/cybercoretech/cybercore-packs",
+    "source": "https://github.com/cybercoretech/cybercore",
     "author": "Cybercore Tech",
     "reviewed": true
   }

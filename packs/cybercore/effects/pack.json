@@ -1,21 +1,56 @@
 {
   "id": "cybercore.effects",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "kind": "effects-pack",
   "channel": "stable",
+  "title": "Cybercore Effects",
+  "description": "Web Kit effect styles and recipes (scanline, grid glow, telemetry pulse) with motion profiles, plus standalone effects such as the HUD scanline with static and reduced-motion fallbacks.",
   "license": "MIT",
-  "compatibility": { "control_plane": ">=0.1.0", "web_kit": ">=1.0.0" },
+  "compatibility": {
+    "control_plane": ">=0.1.0",
+    "web_kit": ">=1.0.0"
+  },
   "dependencies": [],
   "resources": [
     {
-      "id": "effect.neon-border",
-      "kind": "effect-css",
+      "id": "effect.effects.css",
+      "kind": "css",
       "path": "packs/cybercore/effects/effects.css",
-      "sha256": "e02424a0aed6347dd90e09cad47e96abaa9af63c722d7bfbe2e15b6486a6dec8"
+      "sha256": "81c156029d0009cad688e3ce5e2d821414126082a6c3236305863d563694be34"
+    },
+    {
+      "id": "effect.hud-scanline.README.md",
+      "kind": "readme",
+      "path": "packs/cybercore/effects/hud-scanline/README.md",
+      "sha256": "7149cdb358f905c660d03d2501d3dca8dad54328a94d716ac0b34f2752650873"
+    },
+    {
+      "id": "effect.hud-scanline.effect.css",
+      "kind": "css",
+      "path": "packs/cybercore/effects/hud-scanline/effect.css",
+      "sha256": "4507bde6bee5277e26fa8098a5e998671387797277969d73d75d944e4e2579cf"
+    },
+    {
+      "id": "effect.hud-scanline.fallback.css",
+      "kind": "css",
+      "path": "packs/cybercore/effects/hud-scanline/fallback.css",
+      "sha256": "d0a6ca376cb73889d7321c187be54d9183d58ea400b37ca49396b85430a32cd5"
+    },
+    {
+      "id": "effect.hud-scanline.reduced-motion.css",
+      "kind": "css",
+      "path": "packs/cybercore/effects/hud-scanline/reduced-motion.css",
+      "sha256": "a1fe851af26977140de2d3e7088111ea2b27d60662eabfabed87cf482b745731"
+    },
+    {
+      "id": "effect.recipes.json",
+      "kind": "index",
+      "path": "packs/cybercore/effects/recipes.json",
+      "sha256": "4c95ed7fad9cbf41258718f5a1b4701d920e90dda7d3f6c210183f5252251c35"
     }
   ],
   "provenance": {
-    "source": "https://github.com/cybercoretech/cybercore-packs",
+    "source": "https://github.com/cybercoretech/cybercore",
     "author": "Cybercore Tech",
     "reviewed": true
   }

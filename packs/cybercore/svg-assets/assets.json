@@ -1,0 +1,89 @@
+{
+  "format": "cybercore-svg-index",
+  "assets": [
+    {
+      "file": "cybercore-favicon.svg",
+      "title": "cybercore-favicon"
+    },
+    {
+      "file": "cybercore-hero.svg",
+      "title": "cybercore-hero"
+    },
+    {
+      "file": "cybercore-icon.svg",
+      "title": "cybercore-icon"
+    },
+    {
+      "file": "cybercore-site-divider.svg",
+      "title": "cybercore-site-divider"
+    },
+    {
+      "file": "cybercore-social-card.svg",
+      "title": "cybercore-social-card"
+    },
+    {
+      "file": "cybercore-wordmark-compact.svg",
+      "title": "Cybercore"
+    },
+    {
+      "file": "cybercore-wordmark-mono.svg",
+      "title": "Cybercore"
+    },
+    {
+      "file": "cybercore-wordmark.svg",
+      "title": "Cybercore"
+    },
+    {
+      "file": "header-neon.svg",
+      "title": "Cybercore — schema, palette, tokens, paths. 73 themes, one source of truth."
+    },
+    {
+      "file": "header-stacked.svg",
+      "title": "Cybercore"
+    },
+    {
+      "file": "logo-schema-seal.svg",
+      "title": "Cybercore — Schema Seal"
+    },
+    {
+      "file": "icons/cybercore-icon-128.svg",
+      "title": "Cybercore icon 128px"
+    },
+    {
+      "file": "icons/cybercore-icon-16.svg",
+      "title": "Cybercore icon 16px"
+    },
+    {
+      "file": "icons/cybercore-icon-192.svg",
+      "title": "Cybercore icon 192px"
+    },
+    {
+      "file": "icons/cybercore-icon-256.svg",
+      "title": "Cybercore icon 256px"
+    },
+    {
+      "file": "icons/cybercore-icon-32.svg",
+      "title": "Cybercore icon 32px"
+    },
+    {
+      "file": "icons/cybercore-icon-384.svg",
+      "title": "Cybercore icon 384px"
+    },
+    {
+      "file": "icons/cybercore-icon-48.svg",
+      "title": "Cybercore icon 48px"
+    },
+    {
+      "file": "icons/cybercore-icon-512.svg",
+      "title": "Cybercore icon 512px"
+    },
+    {
+      "file": "icons/cybercore-icon-64.svg",
+      "title": "Cybercore icon 64px"
+    },
+    {
+      "file": "icons/cybercore-icon-96.svg",
+      "title": "Cybercore icon 96px"
+    }
+  ]
+}

@@ -1,21 +1,50 @@
 {
   "id": "cybercore.components",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "kind": "components-pack",
   "channel": "stable",
+  "title": "Cybercore Components",
+  "description": "Design tokens, the shared component stylesheet (buttons, cards, navigation, alerts, forms, focus) and the universal theme chooser element.",
   "license": "MIT",
-  "compatibility": { "control_plane": ">=0.1.0", "web_kit": ">=1.0.0" },
+  "compatibility": {
+    "control_plane": ">=0.1.0",
+    "web_kit": ">=1.0.0"
+  },
   "dependencies": [],
   "resources": [
     {
-      "id": "component.cyber-card",
-      "kind": "component-index",
+      "id": "component.chooser.css",
+      "kind": "css",
+      "path": "packs/cybercore/components/chooser.css",
+      "sha256": "e5ef7a383dddf3aa41340638b29db27449523ddf8217c4c2ceaa061d38715b02"
+    },
+    {
+      "id": "component.chooser.js",
+      "kind": "javascript",
+      "path": "packs/cybercore/components/chooser.js",
+      "sha256": "b712fae54ba1792ecb6f112f6fc429e9572fe6723950c81f837614b4a7b873ed"
+    },
+    {
+      "id": "component.components.css",
+      "kind": "css",
+      "path": "packs/cybercore/components/components.css",
+      "sha256": "f1ac44d0056ff38b422f3118f46190efe0350b744492268c5ad59fb01605810c"
+    },
+    {
+      "id": "component.components.json",
+      "kind": "index",
       "path": "packs/cybercore/components/components.json",
-      "sha256": "c3c12350850db83d8efd7a3ccfbb488011fc713ec4fceccd5347775a7b488646"
+      "sha256": "97cbeadbe5d5fcc04303e9b04e5bd2bff38a9cae50ec8b622cc8e263c0564ad2"
+    },
+    {
+      "id": "component.tokens.css",
+      "kind": "css",
+      "path": "packs/cybercore/components/tokens.css",
+      "sha256": "12d64738fd6263bdc6b8a2e7d555745c77876f6d449bbe3531dae22286650ffa"
     }
   ],
   "provenance": {
-    "source": "https://github.com/cybercoretech/cybercore-packs",
+    "source": "https://github.com/cybercoretech/cybercore",
     "author": "Cybercore Tech",
     "reviewed": true
   }

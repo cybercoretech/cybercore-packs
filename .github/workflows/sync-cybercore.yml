@@ -38,6 +38,9 @@ jobs:
       # PRs opened with GITHUB_TOKEN do not start other workflows, so the
       # pack checks run here before the PR is opened.
       - name: Validate
+        env:
+          # Build outside the checkout so nothing but pack files can reach the PR.
+          CARGO_TARGET_DIR: ${{ runner.temp }}/target
         run: |
           find registry schemas packs -name '*.json' -print0 | xargs -0 -n1 jq empty
           cargo test --workspace

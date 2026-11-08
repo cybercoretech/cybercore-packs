@@ -1,21 +1,80 @@
 {
   "id": "cybercore.snippets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "kind": "snippet-pack",
   "channel": "stable",
+  "title": "Cybercore Snippets",
+  "description": "Copy-ready snippets: theme chooser embed, site variable mapping, Web Kit runtime, themed CSS, Rust theme loading and status publishing, CI theme checks and pack installs.",
   "license": "MIT",
-  "compatibility": { "control_plane": ">=0.1.0" },
+  "compatibility": {
+    "cybercore": ">=0.8.0",
+    "control_plane": ">=0.1.0"
+  },
   "dependencies": [],
   "resources": [
     {
-      "id": "snippet.theme-loader",
-      "kind": "snippet-index",
+      "id": "snippet.cargo-dependency.toml",
+      "kind": "snippet",
+      "path": "packs/cybercore/snippets/cargo-dependency.toml",
+      "sha256": "1cd11aeda45796c0256f6e0818e288d0f4e49193ac2764280dc64ceb757fd75e"
+    },
+    {
+      "id": "snippet.check-theme-ci.yml",
+      "kind": "snippet",
+      "path": "packs/cybercore/snippets/check-theme-ci.yml",
+      "sha256": "cdeef1a175d968a4f58ffebaa49aee6dee848c6726db57abcda2d4e0be9213f7"
+    },
+    {
+      "id": "snippet.chooser-navbar.html",
+      "kind": "html-template",
+      "path": "packs/cybercore/snippets/chooser-navbar.html",
+      "sha256": "fafc87009d9078bde928fe49639806e7ee4f5cd5b8b97abf4323d404ffd0bb71"
+    },
+    {
+      "id": "snippet.install-pack.sh",
+      "kind": "snippet",
+      "path": "packs/cybercore/snippets/install-pack.sh",
+      "sha256": "a90e38489b7088eb8376cdf81803b97007487bb8028e4e5bdeb3fea8bfff2c3d"
+    },
+    {
+      "id": "snippet.kit-runtime.html",
+      "kind": "html-template",
+      "path": "packs/cybercore/snippets/kit-runtime.html",
+      "sha256": "706f09d60385e0bd4b06775107b21ff0467020e02d0ef673aa30acc856587003"
+    },
+    {
+      "id": "snippet.load-theme.rs",
+      "kind": "snippet",
+      "path": "packs/cybercore/snippets/load-theme.rs",
+      "sha256": "4cd537adb13dff119c707a294d6bda93cda502c05653b1dd16448b9b7ba5e6e1"
+    },
+    {
+      "id": "snippet.publish-status.rs",
+      "kind": "snippet",
+      "path": "packs/cybercore/snippets/publish-status.rs",
+      "sha256": "544612729a09bc72c8eb9f9ab4f88a3125de18f29b25982a133d3be586c01f56"
+    },
+    {
+      "id": "snippet.site-theme-vars.js",
+      "kind": "javascript",
+      "path": "packs/cybercore/snippets/site-theme-vars.js",
+      "sha256": "02052610ed79784fb7cb0a73d954c7b1584b385cef2aa237fd20c82feab0617e"
+    },
+    {
+      "id": "snippet.snippets.json",
+      "kind": "index",
       "path": "packs/cybercore/snippets/snippets.json",
-      "sha256": "a4012e9373b7571b89a7c02e0bb8eed46afe874b735ddba200beb108ee154263"
+      "sha256": "9394be2386469d9a9cf0b78b5da6e01ef640ee49820791ad8aa1f9b5fecc8f92"
+    },
+    {
+      "id": "snippet.theme-colors.css",
+      "kind": "css",
+      "path": "packs/cybercore/snippets/theme-colors.css",
+      "sha256": "334e40b6ddbc00d157d52cf6dbd0dea44cf054e496ffe569f0c891d697a72f96"
     }
   ],
   "provenance": {
-    "source": "https://github.com/cybercoretech/cybercore-packs",
+    "source": "https://github.com/cybercoretech/cybercore",
     "author": "Cybercore Tech",
     "reviewed": true
   }

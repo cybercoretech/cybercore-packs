@@ -1,21 +1,80 @@
 {
   "id": "cybercore.fonts",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "kind": "font-pack",
   "channel": "stable",
-  "license": "MIT",
-  "compatibility": { "control_plane": ">=0.1.0", "web_kit": ">=1.0.0" },
+  "title": "Cybercore Fonts",
+  "description": "Self-hosted OFL fonts used across Cybercore (Oxanium, Orbitron, Audiowide, Share Tech Mono) with licenses and a ready @font-face stylesheet.",
+  "license": "OFL-1.1",
+  "compatibility": {
+    "control_plane": ">=0.1.0",
+    "web_kit": ">=1.0.0"
+  },
   "dependencies": [],
   "resources": [
     {
-      "id": "font.cybercore-display",
-      "kind": "font-index",
+      "id": "font.audiowide.Audiowide-Regular.ttf",
+      "kind": "font",
+      "path": "packs/cybercore/fonts/audiowide/Audiowide-Regular.ttf",
+      "sha256": "c7c0f2b0f6fad8c623e31772ce79f94a4edb9321ffce9fce978ea892d20ae730"
+    },
+    {
+      "id": "font.audiowide.OFL.txt",
+      "kind": "license",
+      "path": "packs/cybercore/fonts/audiowide/OFL.txt",
+      "sha256": "4fe01b13ffb41faa8f030d84843a95dab32792dfeeca7c072abbfd3f4d6896ad"
+    },
+    {
+      "id": "font.fonts.css",
+      "kind": "css",
+      "path": "packs/cybercore/fonts/fonts.css",
+      "sha256": "59c53a87b1d04a7b288aea170621f7c9fabcf5e927d288920e1072dcfd399a88"
+    },
+    {
+      "id": "font.fonts.json",
+      "kind": "index",
       "path": "packs/cybercore/fonts/fonts.json",
-      "sha256": "8afc2494c442135d823389c6fef095a7317bdceed9b0047ef6c15f3b75a2665a"
+      "sha256": "a69af6d4a52bf834ef207b6f65ccacdd524cfb92dc80ad4e9ad2163c97a77d43"
+    },
+    {
+      "id": "font.orbitron.OFL.txt",
+      "kind": "license",
+      "path": "packs/cybercore/fonts/orbitron/OFL.txt",
+      "sha256": "ab609b0e110d622435ff337cdf233288556e011bbf9bd0550be98846c0630819"
+    },
+    {
+      "id": "font.orbitron.Orbitron-Variable.ttf",
+      "kind": "font",
+      "path": "packs/cybercore/fonts/orbitron/Orbitron-Variable.ttf",
+      "sha256": "f42db2dd16e642258e35782916eceb1dcdbea06fb958d77ad71dc5963587e8fd"
+    },
+    {
+      "id": "font.oxanium.OFL.txt",
+      "kind": "license",
+      "path": "packs/cybercore/fonts/oxanium/OFL.txt",
+      "sha256": "fe17c0f2581d71b4e1ea7e636e7f4877c29223e11bb1dd1a871e8c3f2a86336b"
+    },
+    {
+      "id": "font.oxanium.Oxanium-Variable.ttf",
+      "kind": "font",
+      "path": "packs/cybercore/fonts/oxanium/Oxanium-Variable.ttf",
+      "sha256": "2ce01d946e1e1ffc8d7eecfffbda8623bedd63eaf811a20488c4b69af45babb0"
+    },
+    {
+      "id": "font.sharetechmono.OFL.txt",
+      "kind": "license",
+      "path": "packs/cybercore/fonts/sharetechmono/OFL.txt",
+      "sha256": "9d96f445b6e9c701428811d0177f894874f8d6f07ecc30d568c506542368f3ff"
+    },
+    {
+      "id": "font.sharetechmono.ShareTechMono-Regular.ttf",
+      "kind": "font",
+      "path": "packs/cybercore/fonts/sharetechmono/ShareTechMono-Regular.ttf",
+      "sha256": "9ceab1f87414829af259c0f537573ae03ef7dd3147c0b27a36a1a0beb6732677"
     }
   ],
   "provenance": {
-    "source": "https://github.com/cybercoretech/cybercore-packs",
+    "source": "https://github.com/cybercoretech/cybercore",
     "author": "Cybercore Tech",
     "reviewed": true
   }

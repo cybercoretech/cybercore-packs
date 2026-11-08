@@ -1,21 +1,26 @@
 {
   "id": "cybercore.web-templates",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "kind": "template-pack",
   "channel": "stable",
+  "title": "Cybercore Web Templates",
+  "description": "Dependency-free HTML page templates wired to the live Cybercore kit and theme chooser.",
   "license": "MIT",
-  "compatibility": { "control_plane": ">=0.1.0", "web_kit": ">=1.0.0" },
+  "compatibility": {
+    "control_plane": ">=0.1.0",
+    "web_kit": ">=1.0.0"
+  },
   "dependencies": [],
   "resources": [
     {
-      "id": "template.cybercore-surface",
+      "id": "template.tool-landing.html",
       "kind": "html-template",
-      "path": "packs/cybercore/web-templates/template.html",
-      "sha256": "80fd73ab4921b58e56d83976ef377aa3c3d3f36caef6107913830f5e95959872"
+      "path": "packs/cybercore/web-templates/tool-landing.html",
+      "sha256": "b640c90d27dbe95daf62528fd4c4597088bb2daf32911aaa6d3baf8c3798815c"
     }
   ],
   "provenance": {
-    "source": "https://github.com/cybercoretech/cybercore-packs",
+    "source": "https://github.com/cybercoretech/cybercore",
     "author": "Cybercore Tech",
     "reviewed": true
   }

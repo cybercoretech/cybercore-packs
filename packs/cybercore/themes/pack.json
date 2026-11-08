@@ -1,21 +1,39 @@
 {
   "id": "cybercore.themes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "kind": "theme-pack",
   "channel": "stable",
+  "title": "Cybercore Themes",
+  "description": "Every CYBERGRID theme (600 palettes in 50 families) as one catalog, plus the 12 signature mashups and the classic terminal palettes they use. Source: schema/themes, schema/mashups.json, schema/kitty-themes.json.",
   "license": "MIT",
-  "compatibility": { "control_plane": ">=0.1.0", "web_kit": ">=1.0.0" },
+  "compatibility": {
+    "cybercore": ">=0.8.4",
+    "control_plane": ">=0.1.0",
+    "web_kit": ">=1.0.0"
+  },
   "dependencies": [],
   "resources": [
     {
-      "id": "theme.cybercore-neon",
-      "kind": "theme-index",
-      "path": "packs/cybercore/themes/themes.json",
-      "sha256": "9eccafeab19349c7760e1267de4f7beedcaf2fdc2542d162faa6e216c9bf53ab"
+      "id": "themes.catalog.json",
+      "kind": "index",
+      "path": "packs/cybercore/themes/catalog.json",
+      "sha256": "a97f0a532ce3d238133f9ea357557ddb10e2ad81413da888a33a29240d26fea9"
+    },
+    {
+      "id": "themes.kitty-themes.json",
+      "kind": "index",
+      "path": "packs/cybercore/themes/kitty-themes.json",
+      "sha256": "7c28e4ed54204bf00ef28cc9f468e53c558d34d7a4e86f69f0a9ea4127d3b31f"
+    },
+    {
+      "id": "themes.mashups.json",
+      "kind": "index",
+      "path": "packs/cybercore/themes/mashups.json",
+      "sha256": "c59f7eb234686e5fd33032d9f06698c03133df5f7cb5d20d4c4317702b40318e"
     }
   ],
   "provenance": {
-    "source": "https://github.com/cybercoretech/cybercore-packs",
+    "source": "https://github.com/cybercoretech/cybercore",
     "author": "Cybercore Tech",
     "reviewed": true
   }

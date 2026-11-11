@@ -19,7 +19,7 @@
     },
     {
       "id": "cybercore.components",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "kind": "components-pack",
       "channel": "stable",
       "manifest": "packs/cybercore/components/pack.json",
@@ -63,6 +63,14 @@
       "kind": "template-pack",
       "channel": "stable",
       "manifest": "packs/cybercore/web-templates/pack.json",
+      "archive": null
+    },
+    {
+      "id": "cybercore.brand",
+      "version": "1.0.0",
+      "kind": "brand-pack",
+      "channel": "stable",
+      "manifest": "packs/cybercore/brand/pack.json",
       "archive": null
     }
   ]

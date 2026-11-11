@@ -4,7 +4,7 @@
   "kind": "svg-pack",
   "channel": "stable",
   "title": "Cybercore SVG Assets",
-  "description": "Cybercore logos, wordmarks, headers, social card, divider and the app icon at every size, with an index of titles.",
+  "description": "Cybercore logos, wordmarks, headers, social card, divider and the app icon at every size, with an index of titles. Superseded by cybercore.brand; kept for existing consumers.",
   "license": "MIT",
   "compatibility": {
     "control_plane": ">=0.1.0",

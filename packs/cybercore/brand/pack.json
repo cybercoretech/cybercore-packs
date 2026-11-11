@@ -1,0 +1,1617 @@
+{
+  "id": "cybercore.brand",
+  "version": "1.0.0",
+  "kind": "brand-pack",
+  "channel": "stable",
+  "title": "Cybercore Brand Kit",
+  "description": "Cybercore logos, marks, app icons, project icons and tiles, headers, social cards, identity art and avatars, as theme-aware SVGs (recoloured by role) with fixed-colour sources and PNG exports.",
+  "license": "MIT",
+  "compatibility": {
+    "web_kit": ">=1.0.0",
+    "control_plane": ">=0.1.0"
+  },
+  "dependencies": [],
+  "resources": [
+    {
+      "id": "brand.README.md",
+      "kind": "readme",
+      "path": "packs/cybercore/brand/README.md",
+      "sha256": "66c05751e99e03c10bc1608ae4de730b086166253c08a195c640443d964f6674"
+    },
+    {
+      "id": "brand.brand.json",
+      "kind": "index",
+      "path": "packs/cybercore/brand/brand.json",
+      "sha256": "afc26d6f7cdbfc32b945fd2cf58b2b450c2f6ee7b07378f4ea4512a2555e071c"
+    },
+    {
+      "id": "brand.fixed.avatar.mono.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/avatar/mono.svg",
+      "sha256": "f8d03907dc5ecc67a7af728e75f9805f9aec62a3c5750b74deb2c9bf1b089a7b"
+    },
+    {
+      "id": "brand.fixed.avatar.panel.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/avatar/panel.svg",
+      "sha256": "69fddb4b848ae80febcfbff6858eb567bd83c6f3ee9d981e434d36d9332ee8bd"
+    },
+    {
+      "id": "brand.fixed.avatar.round.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/avatar/round.svg",
+      "sha256": "034c88f28cb8c93ba2a9b768a382ea81211e37a2e5a7e615a766bd3555fb17f3"
+    },
+    {
+      "id": "brand.fixed.card.badges-cybercore.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/card/badges-cybercore.svg",
+      "sha256": "3ed54619fdfa1297ca60ccb240d428cf2dd21374166c9d4b81ef90b6a382b530"
+    },
+    {
+      "id": "brand.fixed.card.badges-top.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/card/badges-top.svg",
+      "sha256": "756ba974fb15283406985383ab09d58dd69a5008c69fe734a591ab7d55d7aeff"
+    },
+    {
+      "id": "brand.fixed.card.containers.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/card/containers.svg",
+      "sha256": "bab7340ea69f6cdbd8c900b93b211ba78bd5eaf536d2a0234702cced04d1faab"
+    },
+    {
+      "id": "brand.fixed.card.tooling.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/card/tooling.svg",
+      "sha256": "dee50ccb73d4e7b752d593a4c1d9fc123070ba095a48f6ca836f1ab53f98b9bb"
+    },
+    {
+      "id": "brand.fixed.header.core.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/header/core.svg",
+      "sha256": "7dd11ed10eda6dd78a0c01fe39d153081f9e6108cb41d96cf71d445396ae86a8"
+    },
+    {
+      "id": "brand.fixed.header.dev.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/header/dev.svg",
+      "sha256": "05efde818abe106ecc72ce786d66dddb582ee3b16bb7e8d2510a9cc85dd415eb"
+    },
+    {
+      "id": "brand.fixed.header.security.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/header/security.svg",
+      "sha256": "c32e3b0be3a092f719b5c2cbf3a67cd679ad6974738fbf86717e91a7b17b03d4"
+    },
+    {
+      "id": "brand.fixed.icon.symbol-128.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/icon/symbol-128.svg",
+      "sha256": "ef9aa9f8289597ce77c4fd0c6569687751e7c76725a224d74c1dd60d041d4f87"
+    },
+    {
+      "id": "brand.fixed.icon.symbol-16.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/icon/symbol-16.svg",
+      "sha256": "404b60cdcaecbc9afbe33fa0a33c3216dc8baabe2cada97e6bacea5c3ae73427"
+    },
+    {
+      "id": "brand.fixed.icon.symbol-192.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/icon/symbol-192.svg",
+      "sha256": "06b0cff6168e3ad7fea8cac22931103e04041964659148899e531d60e5f85f45"
+    },
+    {
+      "id": "brand.fixed.icon.symbol-256.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/icon/symbol-256.svg",
+      "sha256": "b47340bd461c151984473a827f7387d9cd1209cd49c88a92a390c0484012702e"
+    },
+    {
+      "id": "brand.fixed.icon.symbol-32.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/icon/symbol-32.svg",
+      "sha256": "241a75269cd773b7384adc93675b2f654c553abcc323c309eef2ef71c56a9677"
+    },
+    {
+      "id": "brand.fixed.icon.symbol-384.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/icon/symbol-384.svg",
+      "sha256": "fe72bc96b35ab28dc56c777235214a7eb20e787c08b20b7b69960cf386566963"
+    },
+    {
+      "id": "brand.fixed.icon.symbol-48.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/icon/symbol-48.svg",
+      "sha256": "5421d08d7a2c06570ecb29199b605e271e2c4b2e9682310e31084fdcdfb5dda5"
+    },
+    {
+      "id": "brand.fixed.icon.symbol-512.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/icon/symbol-512.svg",
+      "sha256": "d366dea7b08f023b6ce311a4c665296d50113acb44e18131e922028c37b205da"
+    },
+    {
+      "id": "brand.fixed.icon.symbol-64.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/icon/symbol-64.svg",
+      "sha256": "b9a0c325d6e286d7cb2b0be504505281aa80c8fd6ae4551396914806b49180f5"
+    },
+    {
+      "id": "brand.fixed.icon.symbol-96.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/icon/symbol-96.svg",
+      "sha256": "d262b7b99f123d938e38eda7af8bc911cc3c4727ab22224d0add85e225547a95"
+    },
+    {
+      "id": "brand.fixed.logo.header.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/logo/header.svg",
+      "sha256": "aa47208531a5cf229cd1517c61b8f9a64db782febb30b7cf0e416d516356162a"
+    },
+    {
+      "id": "brand.fixed.logo.horizontal-mono.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/logo/horizontal-mono.svg",
+      "sha256": "f4598efa85efa3202f4daa40786560993463d5bedca5754454577da812f5a298"
+    },
+    {
+      "id": "brand.fixed.logo.horizontal.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/logo/horizontal.svg",
+      "sha256": "34847091209144dba9991eb549f168c31a00d70098c5639137055ef1c311baa4"
+    },
+    {
+      "id": "brand.fixed.logo.mark.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/logo/mark.svg",
+      "sha256": "8513e151f610e3cd51c27d1b46613d26fed24c93e45135b4e7bbb128fdcfb168"
+    },
+    {
+      "id": "brand.fixed.logo.stacked.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/logo/stacked.svg",
+      "sha256": "1498e221e3cf17a422248c845d35bdf2935e8cc9d7e1d529f9b3fcdd72838ba9"
+    },
+    {
+      "id": "brand.fixed.logo.symbol.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/logo/symbol.svg",
+      "sha256": "504a13f0c93ccb8a84abe96d291fc6dda2826a3f16f29843d72219a91234f259"
+    },
+    {
+      "id": "brand.fixed.logo.wordmark.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/logo/wordmark.svg",
+      "sha256": "03f4c782f2e812cc709c5e10ad9e76807d9c32b7de68114f198067176b059af1"
+    },
+    {
+      "id": "brand.fixed.mark.automation.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/mark/automation.svg",
+      "sha256": "a53bc6b37a66b14ffa5745184ffc3b17cb21f71f90e510d88f472080714c4beb"
+    },
+    {
+      "id": "brand.fixed.mark.core.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/mark/core.svg",
+      "sha256": "a795bfc9745af11d7628d38e8837a5b763d2e13f1b7e17d367260d8bb254fc1e"
+    },
+    {
+      "id": "brand.fixed.mark.security.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/mark/security.svg",
+      "sha256": "5976d4ce25ff35f8fcf04c3bbcdbcd553a7181bf73ab02e38f928536ba950ef4"
+    },
+    {
+      "id": "brand.fixed.mark.terminal.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/mark/terminal.svg",
+      "sha256": "6b6a9bd7a637fc7a1c2a05ec681a8c05f7851f7c0889823082b0aab6d6bdd1b4"
+    },
+    {
+      "id": "brand.fixed.project.aetherscope.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/aetherscope.svg",
+      "sha256": "3b9771d865a728f51b3d5dc79f9748e5a64cde6830c7a4a7e760b52630a35e85"
+    },
+    {
+      "id": "brand.fixed.project.agentforge.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/agentforge.svg",
+      "sha256": "6b5909d28e36fc9962d739401f7fde5f0801421091c20c37125017702ad78491"
+    },
+    {
+      "id": "brand.fixed.project.apexdaemon.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/apexdaemon.svg",
+      "sha256": "e94ddc0f2aeef1ead58fdcabac68795858410ec8621839bd1c08755c348d7b75"
+    },
+    {
+      "id": "brand.fixed.project.argus.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/argus.svg",
+      "sha256": "d8b630b78cf060a1bde786eee6c684eb663790ec60b0524baef1e33380e77966"
+    },
+    {
+      "id": "brand.fixed.project.chronicle.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/chronicle.svg",
+      "sha256": "8c31316e0efaf66fffca7d053faae21060738ec9ef43410ed2b890f8ac0767f9"
+    },
+    {
+      "id": "brand.fixed.project.cyberauth.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cyberauth.svg",
+      "sha256": "3255481d8f5863e627645c6e899c0f34a5fadfafcbbe934d6fb08d810746105c"
+    },
+    {
+      "id": "brand.fixed.project.cybercore-mission-control.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cybercore-mission-control.svg",
+      "sha256": "5f93cd71faa1f1821d5432920cb89e185d15e79e1a13d823365463a724511c79"
+    },
+    {
+      "id": "brand.fixed.project.cybercore.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cybercore.svg",
+      "sha256": "fd2c2e0d6fd68ef1631e8fa05fb247d4e880874baba1d4cb318fd56524682696"
+    },
+    {
+      "id": "brand.fixed.project.cybercoretech-github-io.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cybercoretech-github-io.svg",
+      "sha256": "31afd8c0a24c523a606ebb28ec9d509759f409c004a54fa923c3a93fab369665"
+    },
+    {
+      "id": "brand.fixed.project.cyberdeck-hub.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cyberdeck-hub.svg",
+      "sha256": "562e7415d5894eb9ed3ac68a6195ea59e201860ad035e5e3187e92ce29b993be"
+    },
+    {
+      "id": "brand.fixed.project.cyberdeck.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cyberdeck.svg",
+      "sha256": "4cbccc493f1c5113cb68ed05baa2d05b3724af7bd8faa7923e8d8e8e4cf6ea34"
+    },
+    {
+      "id": "brand.fixed.project.cyberdesk.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cyberdesk.svg",
+      "sha256": "f11cc490ada8635c713bab57289ca73d1f67a8222261d4243d3afba26344a053"
+    },
+    {
+      "id": "brand.fixed.project.cyberfleet.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cyberfleet.svg",
+      "sha256": "749f0accc55cc8f78467bf6b65d2b1d14c576a28d8cfc4c9ef0ca9244981b665"
+    },
+    {
+      "id": "brand.fixed.project.cybermeta-android-app.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cybermeta-android-app.svg",
+      "sha256": "48eeb6f9b51f1cb2d85fc4abf03fb357888d307a98f9f1c9d8ebca34716811be"
+    },
+    {
+      "id": "brand.fixed.project.cybermeta.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cybermeta.svg",
+      "sha256": "dc5d35b5c6f392e2df68c897b23fcf706cab67fa56517817f093195eb437930e"
+    },
+    {
+      "id": "brand.fixed.project.cybernote-android-app.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cybernote-android-app.svg",
+      "sha256": "6a8c867d804d779530f980d0bb4c7c3318d50636917be731895d3d9eccf8196c"
+    },
+    {
+      "id": "brand.fixed.project.cybernote.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cybernote.svg",
+      "sha256": "c84278769d687d4633ab8841edbae98b12803ae6544c9cc7e36c08c8b7885944"
+    },
+    {
+      "id": "brand.fixed.project.cyberplug-bar-widget.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cyberplug-bar-widget.svg",
+      "sha256": "c08d5b38d2d1141afb25a2da8e5852cb0b6d942d47d8770a5f2eca65e31add5c"
+    },
+    {
+      "id": "brand.fixed.project.cyberplug.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cyberplug.svg",
+      "sha256": "82878016aa0010bae9e3e51c4ae18728289a235f24a0277a4423595dd33940f5"
+    },
+    {
+      "id": "brand.fixed.project.cyberterm.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cyberterm.svg",
+      "sha256": "eb9cd2a2d2ef2597adf624f38ca7a9e8ec4304d6f883495937fe155b562f263e"
+    },
+    {
+      "id": "brand.fixed.project.cybervault-android-app.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cybervault-android-app.svg",
+      "sha256": "e939b3b9f591cd8cc2b9cdec5f3f80991da716e94344bd7448ccb24fe00e5fb0"
+    },
+    {
+      "id": "brand.fixed.project.cybervault.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cybervault.svg",
+      "sha256": "8c2933fce038fc9e4caffd56f6b5cd555f4d04f8f39c429e5226a4955f9a28ee"
+    },
+    {
+      "id": "brand.fixed.project.cyberwatch.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cyberwatch.svg",
+      "sha256": "b16f6df104b23dbdac8a2626e8a465a75d6844631b34988be52964354881bc57"
+    },
+    {
+      "id": "brand.fixed.project.cyberwindiagnostics.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/cyberwindiagnostics.svg",
+      "sha256": "8190014951b02fe97f8453cc5299eeefe80abab658c87c23b21faf5187a7f604"
+    },
+    {
+      "id": "brand.fixed.project.daemonhall.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/daemonhall.svg",
+      "sha256": "f9339f3f6f790bf758838ed74d3b7359f72fe1ef91c93a9fca70ad658e91f8b7"
+    },
+    {
+      "id": "brand.fixed.project.darkwavecode.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/darkwavecode.svg",
+      "sha256": "3f7d87484daaed4386db54809348dcdffdd01031bc1196f5152c0615eb55642a"
+    },
+    {
+      "id": "brand.fixed.project.diagprint.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/diagprint.svg",
+      "sha256": "96231d9d9b480a8379c5fb205830f3c1cac1bfca36f22bbd1a3841ecddd94a23"
+    },
+    {
+      "id": "brand.fixed.project.dockspace.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/dockspace.svg",
+      "sha256": "ed7881c5aa197f2b495e63a0e7670825fd7ab38f690176a78f728b6140b9230f"
+    },
+    {
+      "id": "brand.fixed.project.fdroid.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/fdroid.svg",
+      "sha256": "4b715c367ac9aa81d2543d77530ab5454c62538060cf1ba608e8510e3cc62823"
+    },
+    {
+      "id": "brand.fixed.project.ferraxis.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/ferraxis.svg",
+      "sha256": "bd0a69c158c69e89403175c1330e6d9b3ef7c5bcd8ed876ccb89255145882d6e"
+    },
+    {
+      "id": "brand.fixed.project.gateflow.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/gateflow.svg",
+      "sha256": "de35ef7ed5848e1469aa15517424ef9dfd117e77fd07d6564a164917c721d3c8"
+    },
+    {
+      "id": "brand.fixed.project.ghostframe.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/ghostframe.svg",
+      "sha256": "d8372fd0aea5c83a5802f53f85d4f4c8d06828b61075296a7e65f4566a256340"
+    },
+    {
+      "id": "brand.fixed.project.ghostport.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/ghostport.svg",
+      "sha256": "e885e35ae64b8179ed1112d87a3054ef3d91eb7b1c364e6bdd7a9267377a79cd"
+    },
+    {
+      "id": "brand.fixed.project.github.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/github.svg",
+      "sha256": "dce4bec2e4fa3aecc0a8f9e9fa8efff56496443e69a394bcf1f6e2cf03114adf"
+    },
+    {
+      "id": "brand.fixed.project.hermes.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/hermes.svg",
+      "sha256": "c082ffc24bfb4fd433915c1cbc803b87668d93a37b50528f7a6c859560a31b6b"
+    },
+    {
+      "id": "brand.fixed.project.holodrive-android-app.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/holodrive-android-app.svg",
+      "sha256": "e4618405f4e6f1f5c94644291fa2ceb4892ed3a91f877bca4bd79e83d7eb759d"
+    },
+    {
+      "id": "brand.fixed.project.holodrive.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/holodrive.svg",
+      "sha256": "8a0513c8527cd476c4679f45b8f64d0570af4c91891c55698581354b353d4a26"
+    },
+    {
+      "id": "brand.fixed.project.keysmith.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/keysmith.svg",
+      "sha256": "7fe95cb92095be641491e9ab63e0272ab3d29254284abe0c5bbbcdc76671f98d"
+    },
+    {
+      "id": "brand.fixed.project.neoncoffinvideo.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/neoncoffinvideo.svg",
+      "sha256": "ad8169fbd4bbc4b2aecfa332f7323ea6bfcecdec1997e9a595101e32284a76f7"
+    },
+    {
+      "id": "brand.fixed.project.nightwatch-android-app.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/nightwatch-android-app.svg",
+      "sha256": "a1f5ad69cc439d30a6166a7ae11748a38fc67192c2ea00f6ea75d61e7d6a7b2c"
+    },
+    {
+      "id": "brand.fixed.project.nightwatchd.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/nightwatchd.svg",
+      "sha256": "c02a544280132fcf049d6fff7dc30098fe3ddddde91290b131add51ceec2aa32"
+    },
+    {
+      "id": "brand.fixed.project.omniscient.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/omniscient.svg",
+      "sha256": "94f42f97ee2de853156e432b40c0746ffd4205f56d980982687869ca4e466a5c"
+    },
+    {
+      "id": "brand.fixed.project.sentrygrid.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/sentrygrid.svg",
+      "sha256": "f149b443b8086ab1066b8d11bc8d0b301aeb4e86023eac35e498b220cf88c34b"
+    },
+    {
+      "id": "brand.fixed.project.sigilward.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/sigilward.svg",
+      "sha256": "a66716ba4ff8eaae76272ec8656ff1f5aad8c11abd54bd685ae1b4726558159d"
+    },
+    {
+      "id": "brand.fixed.project.signalwarden.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/signalwarden.svg",
+      "sha256": "55a60628d0cb2004014c166dda4a3b884a567e329d3ef26eadf09234ea338920"
+    },
+    {
+      "id": "brand.fixed.project.undertow.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/undertow.svg",
+      "sha256": "1ea17459f56ba8b5105f6fa757200ddc47f1938097a1fa480e7d16ae7816b927"
+    },
+    {
+      "id": "brand.fixed.project.vdb-rs.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/vdb-rs.svg",
+      "sha256": "ec4bfda07f08b12fa2dc3aa72b50123e500eb214ce99cd7f7c51af209b0a483b"
+    },
+    {
+      "id": "brand.fixed.project.vexlang.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/vexlang.svg",
+      "sha256": "94bcbbf050c7f97f689f60b7e8902ce5a9f3260b1d3e4c1ec35a28ec4d7c7052"
+    },
+    {
+      "id": "brand.fixed.project.vortexwall.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/vortexwall.svg",
+      "sha256": "aa625f6ad4997a1fd78b608e2402cb2111342796a7df336285762e4581ed8615"
+    },
+    {
+      "id": "brand.fixed.project.workratereport.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/workratereport.svg",
+      "sha256": "e36e658ff0da0b06e721be618b5500f88935342d3ac70a347993a613d8d8e30c"
+    },
+    {
+      "id": "brand.fixed.project.wraithflow.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/project/wraithflow.svg",
+      "sha256": "fbdd06f303ee546bebbd335159028b347cace1c7c4438b804cbefb87a92513f0"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-favicon.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-favicon.svg",
+      "sha256": "fe54184a2b7ee7b02fbbf0722b9a842643c8f04e8699db0945410caf921c342e"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-hero.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-hero.svg",
+      "sha256": "3e2891c31c4e26829d5d1be0d4c43c2fac56ab31ea489df2e96d6afe74430f1e"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-icon-128.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-icon-128.svg",
+      "sha256": "90ef806f194faaefd85c587fd6beab4a3d60b9e827b75a23aa3789aded30c5eb"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-icon-16.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-icon-16.svg",
+      "sha256": "24372c53742e746a7ac9fb8bb40410fd039bdd4ecfafaa1be6aad62896afafe8"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-icon-192.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-icon-192.svg",
+      "sha256": "e961a6772fd43e2ea5561479ff93af57a232a4831d5c7a1b023ec303153b6af3"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-icon-256.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-icon-256.svg",
+      "sha256": "3bcf9df2260de9ca0f281a7203e0d5c0b7c2761a20c3624a738c133f5e048c14"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-icon-32.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-icon-32.svg",
+      "sha256": "6d1ef0dc3a98aea9445566a9d43b0ad0fa888ba9a9ee96e3785f18b2b3808724"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-icon-384.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-icon-384.svg",
+      "sha256": "4541f720b4b6c593b5a8a852d4668b4baf672e69e64b041657bf1c7de5213cb4"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-icon-48.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-icon-48.svg",
+      "sha256": "535746972f5b1aa73ba224f5bf52b135807fd8a07ea571a0e56a606822158c1f"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-icon-512.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-icon-512.svg",
+      "sha256": "f670053b3b32fae6094db551df5572d075e4fd389b26832b54081b562bdf0f56"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-icon-64.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-icon-64.svg",
+      "sha256": "db67012426997536c3aa26b653a92e37a3ef81ceaa3550ab8f7ce10bf9ac0912"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-icon-96.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-icon-96.svg",
+      "sha256": "5886218f9d0344ae7979fbf1d7657e42532bef5e06591e8968903ecfc70ef69a"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-icon.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-icon.svg",
+      "sha256": "7a9e967a962b7e7fa5375687c4ed447209674f66fe9e68dfc7fbe0c5e7b942b9"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-site-divider.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-site-divider.svg",
+      "sha256": "5dc8bf03a112bbf16621158f2021230c134a186bb7df7f238a841cb05ab0ec7e"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-social-card.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-social-card.svg",
+      "sha256": "9989a96b7cc0d988d799d205b71f4d91f299330206aee74ec38e459d96b362cc"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-wordmark-compact.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-wordmark-compact.svg",
+      "sha256": "bf625f71506406fec495f4b0b72aeb84d9a505987401dda95fdbfd1f96d1d080"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-wordmark-mono.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-wordmark-mono.svg",
+      "sha256": "b2573f6ce065349840074c1a3fab7f43440aa7a41efc8e9f715c398104aa76a4"
+    },
+    {
+      "id": "brand.fixed.site.cybercore-wordmark.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/cybercore-wordmark.svg",
+      "sha256": "f9013891329368493d0c100248553e054cdfdb0ad387e498fc36f62273f6f741"
+    },
+    {
+      "id": "brand.fixed.site.header-neon.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/header-neon.svg",
+      "sha256": "cb331ca866e4f2ff3cf1da98d0fc033df7792bd6d211fd2b9b0c5e9b223d2c1d"
+    },
+    {
+      "id": "brand.fixed.site.header-stacked.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/header-stacked.svg",
+      "sha256": "790a5d61874e747dfc8ccbdbe93945cae49229b5dd8d06952cfac8b3ac8a6f8f"
+    },
+    {
+      "id": "brand.fixed.site.logo-schema-seal.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/site/logo-schema-seal.svg",
+      "sha256": "39d8b98df77b003d8a92df14c45abea2b8c3434b119f35559bc7d9ea63bd999d"
+    },
+    {
+      "id": "brand.fixed.tile.apexdaemon.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/tile/apexdaemon.svg",
+      "sha256": "eb66209749f9ee0dfe2d63b97c6abc02c84999e2dd164dac2ab9115933c20305"
+    },
+    {
+      "id": "brand.fixed.tile.cybercore.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/tile/cybercore.svg",
+      "sha256": "e27d60eae60cb4c92986d34a12448d25f953b5be4d8ab16864b76b7d5340c306"
+    },
+    {
+      "id": "brand.fixed.tile.cyberdeck.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/tile/cyberdeck.svg",
+      "sha256": "59f3e6c2d18843d338098eb6b7d48ae1057a765ea8d178deac115e7449c84275"
+    },
+    {
+      "id": "brand.fixed.tile.cybermeta.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/tile/cybermeta.svg",
+      "sha256": "15065b96f44278b621d09ca7f1f7fea7987943c51f9176bd16916439b642ea07"
+    },
+    {
+      "id": "brand.fixed.tile.cyberplug.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/tile/cyberplug.svg",
+      "sha256": "a8137b8400c13bdbb9f72d2e41d10a4d829ab904e0cf3453fad4f230e9dc735e"
+    },
+    {
+      "id": "brand.fixed.tile.cyberterm.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/tile/cyberterm.svg",
+      "sha256": "446c6ccca0aa7bccec34ee87f8ba017282c17191af45e9e53b919831e30a503a"
+    },
+    {
+      "id": "brand.fixed.tile.cybervault.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/tile/cybervault.svg",
+      "sha256": "ed042280fcdb6dce26bb623556ddb831501db0a69a687537428b42ba91e032f7"
+    },
+    {
+      "id": "brand.fixed.tile.diagprint.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/tile/diagprint.svg",
+      "sha256": "adf16c8a15ea83edbe9b256b15df0246e140c6b4b72c22494a2b6570a8eeeee8"
+    },
+    {
+      "id": "brand.fixed.tile.gateflow.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/tile/gateflow.svg",
+      "sha256": "aad2e277e4bc35f3ab83486bd630a8c5182f795104c2505bd6d98ee2ebba5509"
+    },
+    {
+      "id": "brand.fixed.tile.ghostport.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/tile/ghostport.svg",
+      "sha256": "a5f1ad6439a8e3f89f7ebd7e0261ba56641de5f8cc91e48ba840a04e70d53c3f"
+    },
+    {
+      "id": "brand.fixed.tile.vortexwall.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/tile/vortexwall.svg",
+      "sha256": "2082b91db0af5a2c854970725400c0b14a2e1fa33d3ce2c8fbb06de403047f99"
+    },
+    {
+      "id": "brand.fixed.tile.wraithflow.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/fixed/tile/wraithflow.svg",
+      "sha256": "bdc2108de77ba8c1a716535a9a5c94cdd4c9afa72ff8ff0f76aa8cd23f558eb7"
+    },
+    {
+      "id": "brand.png.avatar.mono-128.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/avatar/mono-128.png",
+      "sha256": "8a5ed6b86e40d6dcafd8deaa806210ca770c3c93ccbcfc7fc5c0e961b00b4fcb"
+    },
+    {
+      "id": "brand.png.avatar.mono-256.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/avatar/mono-256.png",
+      "sha256": "b85d96c85ddb366c0c5e23683eef10f50eccda2a2c4a39132bb72363efaca4c2"
+    },
+    {
+      "id": "brand.png.avatar.mono-512.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/avatar/mono-512.png",
+      "sha256": "fbb95e466ae058d94e49819e2384d39336d7b435f8a8f8ff4a5a2620d0faab6c"
+    },
+    {
+      "id": "brand.png.avatar.mono-64.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/avatar/mono-64.png",
+      "sha256": "d7c7b44e1f9e5740fbaa55b92afe91c11546e70db4c62c0f0856c2995905bc59"
+    },
+    {
+      "id": "brand.png.avatar.panel-128.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/avatar/panel-128.png",
+      "sha256": "72108cc07460427e47a3f724fb8baa079680914fa978115ac7059fc49ed08407"
+    },
+    {
+      "id": "brand.png.avatar.panel-256.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/avatar/panel-256.png",
+      "sha256": "f219192e815412ffa63dc906e4372af5264aaa08b0ad501dd7c580d16a16303b"
+    },
+    {
+      "id": "brand.png.avatar.panel-512.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/avatar/panel-512.png",
+      "sha256": "d57dfabfdf54b84f2b7cb346490512b06a00e3befb0fc11b76323300b3f7ba31"
+    },
+    {
+      "id": "brand.png.avatar.panel-64.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/avatar/panel-64.png",
+      "sha256": "d2ee93df50a0bdc89db73ca1a57f644b17dff7dfac839bf72ddab2fba4758b04"
+    },
+    {
+      "id": "brand.png.avatar.round-128.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/avatar/round-128.png",
+      "sha256": "c6df677d78d5e8f192d06585f858b44213c712588597e6b0fdf1a2bef2968a1e"
+    },
+    {
+      "id": "brand.png.avatar.round-256.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/avatar/round-256.png",
+      "sha256": "4c134c2f3eee47007b4a601c44c59a79977f91ac62e8c3281c00a3a5fe92a261"
+    },
+    {
+      "id": "brand.png.avatar.round-512.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/avatar/round-512.png",
+      "sha256": "6465999dcbd108320fad13cdc9b30df181b280b9b2e3f1caf27e31b1852b8292"
+    },
+    {
+      "id": "brand.png.avatar.round-64.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/avatar/round-64.png",
+      "sha256": "381c91eb12d57e459147acea3114becf3f65621eabcd1e6ea9f5cedb4a06409c"
+    },
+    {
+      "id": "brand.png.icon.symbol-128.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/icon/symbol-128.png",
+      "sha256": "b101a025bfeaba047609904b393264656cbb34c4bb8510179c76e22df9684c30"
+    },
+    {
+      "id": "brand.png.icon.symbol-16.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/icon/symbol-16.png",
+      "sha256": "3b74d3abd6c7b32a8d42954417dd202e774ffd36c897afa926e019d3151e9430"
+    },
+    {
+      "id": "brand.png.icon.symbol-192.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/icon/symbol-192.png",
+      "sha256": "d0624aa551773a3b87dd23e8fe2917a10981093e8ae703f26f1a940d9f8b4d7b"
+    },
+    {
+      "id": "brand.png.icon.symbol-256.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/icon/symbol-256.png",
+      "sha256": "e49df62967cef3c962389df8a14531ae11f853013f097e965868fced63e34ff3"
+    },
+    {
+      "id": "brand.png.icon.symbol-32.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/icon/symbol-32.png",
+      "sha256": "31ececa80f01bde46d8d999062ed823c2e96f1690cf135467bdd303e96aaa178"
+    },
+    {
+      "id": "brand.png.icon.symbol-384.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/icon/symbol-384.png",
+      "sha256": "33e4a427821b549b0c406e6c088f3c218aea42c97a715767e706d537c4a0d67e"
+    },
+    {
+      "id": "brand.png.icon.symbol-48.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/icon/symbol-48.png",
+      "sha256": "597f6693aee4e48b11e4cd2f6c97745f297c865bbbdec3c0ebfdbcc8009bca7f"
+    },
+    {
+      "id": "brand.png.icon.symbol-512.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/icon/symbol-512.png",
+      "sha256": "43daf8516be6364fb7319c75159f099a947381e620f142569dd1e82b8769e286"
+    },
+    {
+      "id": "brand.png.icon.symbol-64.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/icon/symbol-64.png",
+      "sha256": "f0009eb33b7ab0cae2c678b692210ae6b641c17dc13314bcab05837299ab844b"
+    },
+    {
+      "id": "brand.png.icon.symbol-96.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/icon/symbol-96.png",
+      "sha256": "24fc07fd6beadc2b7e09e73b80a45eb8ddf3f4eacf50bd9e6850f2904113d2a5"
+    },
+    {
+      "id": "brand.png.identity.core-reactor.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/identity/core-reactor.png",
+      "sha256": "6839975be213d771b4db9b9befa21f156ba80ed1fd119558abaa8d2f39de31f1"
+    },
+    {
+      "id": "brand.png.identity.mark.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/identity/mark.png",
+      "sha256": "c7c0073d0b69e32cfe82b8776b5a2bd25dbf095a29ea90d4750c0f4ae858a8e8"
+    },
+    {
+      "id": "brand.png.site.cybercore-icon-128.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/site/cybercore-icon-128.png",
+      "sha256": "d9e2f86dde19e67e166fab5e1659780552874fd085e0ab9e775a6df41d21562c"
+    },
+    {
+      "id": "brand.png.site.cybercore-icon-16.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/site/cybercore-icon-16.png",
+      "sha256": "324b7d8fd5d00c8cc0262568850ea64fd919b29d5d2455d5c0e44f4ad03dd826"
+    },
+    {
+      "id": "brand.png.site.cybercore-icon-192.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/site/cybercore-icon-192.png",
+      "sha256": "712865d4f8ce7a331ba5e4459ac98e7e4de91187805090d4ceb9bcf08aa16c05"
+    },
+    {
+      "id": "brand.png.site.cybercore-icon-256.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/site/cybercore-icon-256.png",
+      "sha256": "b0c40f72ffb0c04ba436250094628d4757ad78a0b7e1ee833d8314ce245a8d08"
+    },
+    {
+      "id": "brand.png.site.cybercore-icon-32.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/site/cybercore-icon-32.png",
+      "sha256": "1b5e7b6ebaa5fd1638a09df51681cbfb6e0a63540ee24f9593ae8186f8c6010e"
+    },
+    {
+      "id": "brand.png.site.cybercore-icon-384.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/site/cybercore-icon-384.png",
+      "sha256": "9f7238365bfa9bf59c700c6ff5327ff60ebf7acafed1b720304a6733ccf7e9b8"
+    },
+    {
+      "id": "brand.png.site.cybercore-icon-48.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/site/cybercore-icon-48.png",
+      "sha256": "7421b0e6c1f2ea796749eefb0a4a5623afd9d0c83a0dc8836502dbd9f4fdb600"
+    },
+    {
+      "id": "brand.png.site.cybercore-icon-512.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/site/cybercore-icon-512.png",
+      "sha256": "473267c2b8c44c55f91adae2a2ec3c5c8055bc5296277997773b3fa12c342d4e"
+    },
+    {
+      "id": "brand.png.site.cybercore-icon-64.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/site/cybercore-icon-64.png",
+      "sha256": "c9014aefdf4596a48d8df3aaf5105fbed32a85ca66a5cdc5507f9410c89fcc12"
+    },
+    {
+      "id": "brand.png.site.cybercore-icon-96.png",
+      "kind": "png",
+      "path": "packs/cybercore/brand/png/site/cybercore-icon-96.png",
+      "sha256": "7a2974de28197a5a441c32a42f00cc79e0836ec55ff3765a364b3c6008507624"
+    },
+    {
+      "id": "brand.svg.avatar.mono.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/avatar/mono.svg",
+      "sha256": "be88cd7045df585cab84f46cab393f751e56adaedef415748f36befc29907bee"
+    },
+    {
+      "id": "brand.svg.avatar.panel.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/avatar/panel.svg",
+      "sha256": "8a07ece08a4c2eca6a7f946a6f8bb89edb6604b4ff32920aa0bd019047fa840d"
+    },
+    {
+      "id": "brand.svg.avatar.round.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/avatar/round.svg",
+      "sha256": "f6ea5d3eeefc8824b6f273f04d58cfe4286061a5e46f5ec3b82277cfa471006b"
+    },
+    {
+      "id": "brand.svg.card.badges-cybercore.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/card/badges-cybercore.svg",
+      "sha256": "09d3d24d1780f45dda78b3957bd097be262a309c213934c251e039b1e9e1e13e"
+    },
+    {
+      "id": "brand.svg.card.badges-top.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/card/badges-top.svg",
+      "sha256": "ac1bfa895e620d955fa7ae22c1ce51b5e6f986394bbdf974064b1772553fd29b"
+    },
+    {
+      "id": "brand.svg.card.containers.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/card/containers.svg",
+      "sha256": "d0838ab243f03e5be8efdd79d43803aa0cc4606fae20a49dc860577d517d732c"
+    },
+    {
+      "id": "brand.svg.card.tooling.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/card/tooling.svg",
+      "sha256": "8ff47c53bc19cf711bb8ddf4658b9e47ef60582b787bb20989e565f6bc58b78e"
+    },
+    {
+      "id": "brand.svg.header.core.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/header/core.svg",
+      "sha256": "a9864f66a16a69699df2c5cf71d11438d10249d4aadb36f2ef82de65f72a6e13"
+    },
+    {
+      "id": "brand.svg.header.dev.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/header/dev.svg",
+      "sha256": "7b43fda04009b4856dbd43a51304cf83e968576faa79be747865c576b72ddb5c"
+    },
+    {
+      "id": "brand.svg.header.security.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/header/security.svg",
+      "sha256": "551985a4b47833565a92a53884498cc1d8adcaacaf90bbf8a94d5fe2d2050e85"
+    },
+    {
+      "id": "brand.svg.icon.symbol-128.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/icon/symbol-128.svg",
+      "sha256": "cf3da67eda3273e22d98964aedc26bfdff027d31833474732952ebb5bc94aace"
+    },
+    {
+      "id": "brand.svg.icon.symbol-16.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/icon/symbol-16.svg",
+      "sha256": "f1123096928632dc52fc0aecb9232a6b5ef07dfa73b28d1dcec57f6e098a21ba"
+    },
+    {
+      "id": "brand.svg.icon.symbol-192.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/icon/symbol-192.svg",
+      "sha256": "5b6af69bb2723561b56a7958b454bfa2caa30f57bc590af2036a5d7a61fc2553"
+    },
+    {
+      "id": "brand.svg.icon.symbol-256.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/icon/symbol-256.svg",
+      "sha256": "0922a5d8552d33a08fbc6a2ebba5a4cbfd6e77f7ee3338fcb5269eff0e2e5729"
+    },
+    {
+      "id": "brand.svg.icon.symbol-32.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/icon/symbol-32.svg",
+      "sha256": "7034c742f01a25788b5a2b807dfc1bcff656b6cc0a166fe763130ceeb967174b"
+    },
+    {
+      "id": "brand.svg.icon.symbol-384.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/icon/symbol-384.svg",
+      "sha256": "b3a19e635e253c3647dfbc11ea5359f0d16cc32e1073d08ae8aa64360934722a"
+    },
+    {
+      "id": "brand.svg.icon.symbol-48.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/icon/symbol-48.svg",
+      "sha256": "8a57a111a7b2782ea10821cb7052514d79ca4697838aa41582141e59e70e3140"
+    },
+    {
+      "id": "brand.svg.icon.symbol-512.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/icon/symbol-512.svg",
+      "sha256": "0b74e9c3203b9233b7b8abd7e321261d83a8f3bdadf141594e3046f0652105a2"
+    },
+    {
+      "id": "brand.svg.icon.symbol-64.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/icon/symbol-64.svg",
+      "sha256": "baa549f48e781d3ab876898db99d0ac084289dbccdc0b8900a187caa76e291da"
+    },
+    {
+      "id": "brand.svg.icon.symbol-96.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/icon/symbol-96.svg",
+      "sha256": "8a2a07e32bb1bf1d4469a247dccad2ca33ecfdaf02a51790b34536c554949834"
+    },
+    {
+      "id": "brand.svg.logo.header.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/logo/header.svg",
+      "sha256": "d6ee0e731c4994e30ff4b922ac25f628d55c92e28a86c30ac9ee694d3a226593"
+    },
+    {
+      "id": "brand.svg.logo.horizontal-mono.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/logo/horizontal-mono.svg",
+      "sha256": "7cf810194c25473ec82778c3c450af3f0ca0f6547a7da8a4a426adee6ce3d688"
+    },
+    {
+      "id": "brand.svg.logo.horizontal.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/logo/horizontal.svg",
+      "sha256": "f54e7cc56483b64769f139f3aeb334f2c1114c5fc0a6bbebda73355870be2aa3"
+    },
+    {
+      "id": "brand.svg.logo.mark.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/logo/mark.svg",
+      "sha256": "7ed7ae481dd9dd5178d8b0433779e37900ea08eaf56ee5225169e1b9b9f4ee72"
+    },
+    {
+      "id": "brand.svg.logo.stacked.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/logo/stacked.svg",
+      "sha256": "ad4e788c1a85436f490a705b16867096f4c72148d59bfb14552a87f360ccd998"
+    },
+    {
+      "id": "brand.svg.logo.symbol.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/logo/symbol.svg",
+      "sha256": "4670efc288819dbab92e3b8a49a3c12d3482fa76c86e311c9232d820c6e984ab"
+    },
+    {
+      "id": "brand.svg.logo.wordmark.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/logo/wordmark.svg",
+      "sha256": "c01bebf7245cb5984eb32467a556d83213dc777ad441b6da14f4d029e0268466"
+    },
+    {
+      "id": "brand.svg.mark.automation.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/mark/automation.svg",
+      "sha256": "db3217a22463b1a9b00ee2fc4ed54ae2b3aea2fccc2fd8ca2eabb4240af4da13"
+    },
+    {
+      "id": "brand.svg.mark.core.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/mark/core.svg",
+      "sha256": "d291802b9ea178f0ab1f9ef0af44a8a81a188c7d33dc28af72e943e8b76821fe"
+    },
+    {
+      "id": "brand.svg.mark.security.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/mark/security.svg",
+      "sha256": "63dd7687e2f3807b6c2a43ee807e47c20dec98379f11b469e58fe8c9ca233a95"
+    },
+    {
+      "id": "brand.svg.mark.terminal.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/mark/terminal.svg",
+      "sha256": "8fc735116fa827851a59559b703f250e0ae7c11325e74c20ebff7af3039df5ad"
+    },
+    {
+      "id": "brand.svg.project.aetherscope.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/aetherscope.svg",
+      "sha256": "34c45ebdaf98fc2c44f2b2759276fb0b4c08b156af66dda19884f92261f20322"
+    },
+    {
+      "id": "brand.svg.project.agentforge.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/agentforge.svg",
+      "sha256": "581dff5a50365c692e202acd0e430a3b6d9b282c81c4a957f83d342465af14b5"
+    },
+    {
+      "id": "brand.svg.project.apexdaemon.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/apexdaemon.svg",
+      "sha256": "fc92231dfdbdcce06e17b5d7afdb4b2aa8f2c0259c13a3a3a35975c8592b4b2a"
+    },
+    {
+      "id": "brand.svg.project.argus.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/argus.svg",
+      "sha256": "a453fafb4141e2de6baf0d0c846de01db61af8fef8807700a2b6e2ceb036f620"
+    },
+    {
+      "id": "brand.svg.project.chronicle.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/chronicle.svg",
+      "sha256": "39c6d18015e6e2e86fa488a4a4c66fda21b0ad948bceba8729f6438bd0a46602"
+    },
+    {
+      "id": "brand.svg.project.cyberauth.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cyberauth.svg",
+      "sha256": "3a88db787802e00dcaf6bd308774b0eea88eb639cfa430ea8c47b0acccda71bd"
+    },
+    {
+      "id": "brand.svg.project.cybercore-mission-control.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cybercore-mission-control.svg",
+      "sha256": "6776c974dec2822b0cc8f01208e13fa4919c7b6d75977012dbf218eb7975a112"
+    },
+    {
+      "id": "brand.svg.project.cybercore.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cybercore.svg",
+      "sha256": "36c2a430f491347a44e1758e120185192924e78c3865f04f52652c372889c149"
+    },
+    {
+      "id": "brand.svg.project.cybercoretech-github-io.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cybercoretech-github-io.svg",
+      "sha256": "6519b7eb42531bea338b4b169854bb37afcaca32696008b10bb544208db9cef6"
+    },
+    {
+      "id": "brand.svg.project.cyberdeck-hub.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cyberdeck-hub.svg",
+      "sha256": "b523a05bc7e2bcb431ac9ed8256b1d8d47a177e0fd8dbb783b82998d70aaae55"
+    },
+    {
+      "id": "brand.svg.project.cyberdeck.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cyberdeck.svg",
+      "sha256": "7be5092a518c10abb8c7b488527c238e254faaca6a8a9699eeae4fe0a0ebaada"
+    },
+    {
+      "id": "brand.svg.project.cyberdesk.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cyberdesk.svg",
+      "sha256": "79e523a82a60b6c6a8cb2cd727d8e8df11714bee06e43f923b0b770ee7d4944d"
+    },
+    {
+      "id": "brand.svg.project.cyberfleet.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cyberfleet.svg",
+      "sha256": "02e64758c3f27ca939a13b670876a4db0e7dd853dad2ef86c4a0515e7a217a36"
+    },
+    {
+      "id": "brand.svg.project.cybermeta-android-app.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cybermeta-android-app.svg",
+      "sha256": "0e71587e862fdf695116bd6af8c75507046aab7a96be431519d5efc1ae187e0f"
+    },
+    {
+      "id": "brand.svg.project.cybermeta.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cybermeta.svg",
+      "sha256": "80096e5c5a44a3df3d46b3cca1877166087a4016fb496b5eb97364fb21aa0ed1"
+    },
+    {
+      "id": "brand.svg.project.cybernote-android-app.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cybernote-android-app.svg",
+      "sha256": "b6f43166917da400b17d29e151f68550f0429a9b5ae27744fdedb7c4481f2502"
+    },
+    {
+      "id": "brand.svg.project.cybernote.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cybernote.svg",
+      "sha256": "c80f5b638ec92e111b9b3ea2818bc956868ad3f303e2ffab8a29ce7310d0f06e"
+    },
+    {
+      "id": "brand.svg.project.cyberplug-bar-widget.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cyberplug-bar-widget.svg",
+      "sha256": "e772a81b7ad97d4629080f913ac17747468b4e5c9435ea538abe044564a0a0bb"
+    },
+    {
+      "id": "brand.svg.project.cyberplug.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cyberplug.svg",
+      "sha256": "67d8e7986d9ebb0eecff93961400cb722b55e40b92b5aad75fc6c4c2c94de195"
+    },
+    {
+      "id": "brand.svg.project.cyberterm.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cyberterm.svg",
+      "sha256": "3436ac8f938811f905a8b670d7c04ca5f71bb38b297de744414e103998f6728f"
+    },
+    {
+      "id": "brand.svg.project.cybervault-android-app.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cybervault-android-app.svg",
+      "sha256": "b8b3c99db46641881ac35b293f2d45ceff6c24f9100c6558f4a496602b1abed3"
+    },
+    {
+      "id": "brand.svg.project.cybervault.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cybervault.svg",
+      "sha256": "ae7684a7201d175124c2b3f351dc1a8415d50e59a6e01de2ea0d9dabf380477d"
+    },
+    {
+      "id": "brand.svg.project.cyberwatch.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cyberwatch.svg",
+      "sha256": "242a86a117f501cdbe31debdbde358735d64953f6bae5fb69d393be0f07c6568"
+    },
+    {
+      "id": "brand.svg.project.cyberwindiagnostics.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/cyberwindiagnostics.svg",
+      "sha256": "fd92b1f76ae1fc51a598e6ae243f6adea8482d671222431377357198fd03d78c"
+    },
+    {
+      "id": "brand.svg.project.daemonhall.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/daemonhall.svg",
+      "sha256": "293dcce967da01ea19e90cdf2bc34e7811902a50c8c299840599c6a203f29dc2"
+    },
+    {
+      "id": "brand.svg.project.darkwavecode.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/darkwavecode.svg",
+      "sha256": "338fa41b564cd407b555ace67e3d2de5caa19de2caa65cce506c185abc6ed344"
+    },
+    {
+      "id": "brand.svg.project.diagprint.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/diagprint.svg",
+      "sha256": "9ea959388e3491880b82c1304e7a5b9d4ff91d1bb566495f20a7dfa03269ebd2"
+    },
+    {
+      "id": "brand.svg.project.dockspace.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/dockspace.svg",
+      "sha256": "2c46193c63af58c3f4fd062e3f7d2eb5f24bace3508ebf8c4f11f104f2cbe2bf"
+    },
+    {
+      "id": "brand.svg.project.fdroid.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/fdroid.svg",
+      "sha256": "4b715c367ac9aa81d2543d77530ab5454c62538060cf1ba608e8510e3cc62823"
+    },
+    {
+      "id": "brand.svg.project.ferraxis.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/ferraxis.svg",
+      "sha256": "f3cd921db59d03da98db90a67600e5c6b500ee68b1c566fb14ab8cc991aa3824"
+    },
+    {
+      "id": "brand.svg.project.gateflow.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/gateflow.svg",
+      "sha256": "176f4e45aaa4ed0314700d375c34b5267675d72ee45eac412f0653848d74c1e4"
+    },
+    {
+      "id": "brand.svg.project.ghostframe.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/ghostframe.svg",
+      "sha256": "23d9db68e8f8834df127456c82a13387b8a11b1d01713b5aa4ee7553cfb3b61d"
+    },
+    {
+      "id": "brand.svg.project.ghostport.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/ghostport.svg",
+      "sha256": "b0208ddca3edb3760a25cc66c9195a1d37db795a575758dc345da89cb61f0a26"
+    },
+    {
+      "id": "brand.svg.project.github.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/github.svg",
+      "sha256": "a3a6929a3e11c18aad3c625f7c56a37b6f58b50545d1f3523db66310e6da9738"
+    },
+    {
+      "id": "brand.svg.project.hermes.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/hermes.svg",
+      "sha256": "c082ffc24bfb4fd433915c1cbc803b87668d93a37b50528f7a6c859560a31b6b"
+    },
+    {
+      "id": "brand.svg.project.holodrive-android-app.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/holodrive-android-app.svg",
+      "sha256": "1311ab8f6da4c8ad05e31044601784d1e55516fa51842fa62173fbee09657289"
+    },
+    {
+      "id": "brand.svg.project.holodrive.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/holodrive.svg",
+      "sha256": "8c093c72a009b7d71f4a113bfb1c152a476f78d2db761204e7497ded26297cd6"
+    },
+    {
+      "id": "brand.svg.project.keysmith.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/keysmith.svg",
+      "sha256": "366a0e1ba885f50e4f63e179bcce2dec3c4826f25d8b5253f917af16f08a8a1a"
+    },
+    {
+      "id": "brand.svg.project.neoncoffinvideo.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/neoncoffinvideo.svg",
+      "sha256": "7b3aed3ed34fbfd0635053ad69264d31b1b3a6c1353f0ebeec8c2e6bf714c003"
+    },
+    {
+      "id": "brand.svg.project.nightwatch-android-app.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/nightwatch-android-app.svg",
+      "sha256": "83227959ffffc1354de4e6ab1b0d5bb869d09cf156f78780d7a75722e7e306c4"
+    },
+    {
+      "id": "brand.svg.project.nightwatchd.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/nightwatchd.svg",
+      "sha256": "3e8da7ca68cca5268fe2dc17b8cc1bc879ee7bef511c51f8b287ac90cee71934"
+    },
+    {
+      "id": "brand.svg.project.omniscient.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/omniscient.svg",
+      "sha256": "abe7897d49dd9579b3101f8b23dc9f59a577e7b2ff66a533fe03f8411f6df9a6"
+    },
+    {
+      "id": "brand.svg.project.sentrygrid.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/sentrygrid.svg",
+      "sha256": "24ef48156fe4672c1cc8bbc0fe217a48917f4ed56cc0403960413f92c516c3fd"
+    },
+    {
+      "id": "brand.svg.project.sigilward.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/sigilward.svg",
+      "sha256": "233ae0d1113cd5a59d958d2e0bcd84d4c29f82e6887b60e704f7f8a5e501c358"
+    },
+    {
+      "id": "brand.svg.project.signalwarden.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/signalwarden.svg",
+      "sha256": "9d2c946ae8936e36c24307dca7efd678b277cd525be695449986e54437421155"
+    },
+    {
+      "id": "brand.svg.project.undertow.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/undertow.svg",
+      "sha256": "8eb07755548635d71f69023a50d6ce21714b86ec85ae8b58589e0e1876ef6e20"
+    },
+    {
+      "id": "brand.svg.project.vdb-rs.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/vdb-rs.svg",
+      "sha256": "d619416683a776d46b1de3cc24d28b4061b7ca32505dad7fd0e77b8eb39484e5"
+    },
+    {
+      "id": "brand.svg.project.vexlang.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/vexlang.svg",
+      "sha256": "eace0212fea2f55245d98a5ecc4be16ccb319c7812e1f98f912e885b2506d7bf"
+    },
+    {
+      "id": "brand.svg.project.vortexwall.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/vortexwall.svg",
+      "sha256": "8053ddf66fc83d4d9a6924f14c5469f7bb16c6093f5c018cd690ab6b96a26129"
+    },
+    {
+      "id": "brand.svg.project.workratereport.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/workratereport.svg",
+      "sha256": "ef5fd5df24822b4993c72fb15e456fb37da7b04dd52264d97289e9ae3938256d"
+    },
+    {
+      "id": "brand.svg.project.wraithflow.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/project/wraithflow.svg",
+      "sha256": "6b5321ac0948feba4a4b2887a3564b5c8e4f8132eb4c1c38a526872b63df3328"
+    },
+    {
+      "id": "brand.svg.site.cybercore-favicon.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-favicon.svg",
+      "sha256": "96a486a32f8229d49607d910648a967b867e93c7c8ef7dc1abfd2dba12466a1f"
+    },
+    {
+      "id": "brand.svg.site.cybercore-hero.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-hero.svg",
+      "sha256": "eabf41f2835a807ede374fe2d5815731444832306c1b9677e41ecbab9109524a"
+    },
+    {
+      "id": "brand.svg.site.cybercore-icon-128.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-icon-128.svg",
+      "sha256": "a56f4b555e6a1e80c43c0365ca4a7f81452a31c46529a315232fdba17c720c8e"
+    },
+    {
+      "id": "brand.svg.site.cybercore-icon-16.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-icon-16.svg",
+      "sha256": "910731f4732a3f8b059ff45f2ac9b23244b6d7a4c24ce33e5518a83b0d09fe7e"
+    },
+    {
+      "id": "brand.svg.site.cybercore-icon-192.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-icon-192.svg",
+      "sha256": "5284dc443c2520cb4834f2080b8df6448b3dbe8311be856ae5c7463e9b26e4c7"
+    },
+    {
+      "id": "brand.svg.site.cybercore-icon-256.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-icon-256.svg",
+      "sha256": "e108b164f4f11a39f0fc99f4cd6f98616baad39c66e3052f52cdcb83bb779ae6"
+    },
+    {
+      "id": "brand.svg.site.cybercore-icon-32.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-icon-32.svg",
+      "sha256": "47ea7ab88d402bdda9e67dcd6603246733be033bddb549938d162cb50ba8fe8b"
+    },
+    {
+      "id": "brand.svg.site.cybercore-icon-384.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-icon-384.svg",
+      "sha256": "7d56c45dd00fdcf8a039b64a35f1561271c6c237d2b6c361a2b1bc75a1d05fcd"
+    },
+    {
+      "id": "brand.svg.site.cybercore-icon-48.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-icon-48.svg",
+      "sha256": "bb22893d3b0fa0da242ae03e71d3440f9cc10c2d05949097114727dee585795c"
+    },
+    {
+      "id": "brand.svg.site.cybercore-icon-512.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-icon-512.svg",
+      "sha256": "4b0790a0e6d57bb2b1e99ebecd7e0bfe90e8e8f2c4c9e99a332a55e442d135cd"
+    },
+    {
+      "id": "brand.svg.site.cybercore-icon-64.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-icon-64.svg",
+      "sha256": "5c79c9ba3962580de30c9b65912c79563b2125304a3bb325980076921e0d3dd3"
+    },
+    {
+      "id": "brand.svg.site.cybercore-icon-96.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-icon-96.svg",
+      "sha256": "c9cab03bcd169d5b35d31e63ddc32be27433509bb448b0afb6d1573f4c629e57"
+    },
+    {
+      "id": "brand.svg.site.cybercore-icon.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-icon.svg",
+      "sha256": "2ae4d1a0788a0be93096fbfbf2dd81ead98717809fc84fae94f7b83059b795e1"
+    },
+    {
+      "id": "brand.svg.site.cybercore-site-divider.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-site-divider.svg",
+      "sha256": "208087be8c3c8b0123ef37b6683809b054ff9e6de011f7aeae0e1c84ca957cbf"
+    },
+    {
+      "id": "brand.svg.site.cybercore-social-card.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-social-card.svg",
+      "sha256": "f40c633d1e9d30739f6c67bc46e821feb8c37b0b389af40302ed22649070c7a5"
+    },
+    {
+      "id": "brand.svg.site.cybercore-wordmark-compact.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-wordmark-compact.svg",
+      "sha256": "e0266ac5f7c8f84011bb7f683a0ab0480788564330288591084871e5bf4dc883"
+    },
+    {
+      "id": "brand.svg.site.cybercore-wordmark-mono.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-wordmark-mono.svg",
+      "sha256": "df61e30b67ab49cd80ea166fb3b26d5d3c833311f939a5065da8ccfd6ea76dfe"
+    },
+    {
+      "id": "brand.svg.site.cybercore-wordmark.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/cybercore-wordmark.svg",
+      "sha256": "377b1362bf28ca7dac7a4b78c7f67c910fd040e5c3cb09c0798a18135d9badfc"
+    },
+    {
+      "id": "brand.svg.site.header-neon.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/header-neon.svg",
+      "sha256": "a1ad87f2f85caded4985085e6c5e12b285530d7e984c323c79239e349e953eff"
+    },
+    {
+      "id": "brand.svg.site.header-stacked.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/header-stacked.svg",
+      "sha256": "98fec12e1079b6c8827914981b21bcce4e46a25fc6173a19233053a3b9f511ee"
+    },
+    {
+      "id": "brand.svg.site.logo-schema-seal.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/site/logo-schema-seal.svg",
+      "sha256": "12075b67c7553ecef61c28d0b1744951fdf178b47a885316a7c0c7f75ed6fba2"
+    },
+    {
+      "id": "brand.svg.tile.apexdaemon.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/tile/apexdaemon.svg",
+      "sha256": "5143f14ce101e0de90a70c6bfd563cee611f5b301597cc0825df180bb89859b9"
+    },
+    {
+      "id": "brand.svg.tile.cybercore.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/tile/cybercore.svg",
+      "sha256": "b8ec4012b715e8cc9cf152f65f477dd00936bf214f5668b6be3559714261981c"
+    },
+    {
+      "id": "brand.svg.tile.cyberdeck.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/tile/cyberdeck.svg",
+      "sha256": "f17fccd1f12ee969f2069d4de2159462184c381c2739640b33ca6db8d117b747"
+    },
+    {
+      "id": "brand.svg.tile.cybermeta.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/tile/cybermeta.svg",
+      "sha256": "571022074ba9113a8e4fdc6f427adee31ee13cf3edd55867c57178783f65aa10"
+    },
+    {
+      "id": "brand.svg.tile.cyberplug.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/tile/cyberplug.svg",
+      "sha256": "1fbb0cc0d0a966e20af7acc6e8d46f3a2a48fa9ba8e60781f8301a92edca6074"
+    },
+    {
+      "id": "brand.svg.tile.cyberterm.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/tile/cyberterm.svg",
+      "sha256": "5c208dbe5c480dd6ce07995ae1b31c017d204b7d70b0b9e1083954d124309e6b"
+    },
+    {
+      "id": "brand.svg.tile.cybervault.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/tile/cybervault.svg",
+      "sha256": "bdc52964099b31c2e3b9a3b35c89a1babf520831c50525785f58ab9ada095403"
+    },
+    {
+      "id": "brand.svg.tile.diagprint.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/tile/diagprint.svg",
+      "sha256": "35ebca973d1c4f337cfbb92d9b116a15cbe7463efe90e24a2b6214b1698992d5"
+    },
+    {
+      "id": "brand.svg.tile.gateflow.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/tile/gateflow.svg",
+      "sha256": "08c526eb04a37015dd4f4edad7085d3706ddec6cec22d536a6e2a4d74b5afc2e"
+    },
+    {
+      "id": "brand.svg.tile.ghostport.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/tile/ghostport.svg",
+      "sha256": "80a63b340f94e3c0bd7e2ceb1c7823bc950357df8d81ee2bb358e24674f7d695"
+    },
+    {
+      "id": "brand.svg.tile.vortexwall.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/tile/vortexwall.svg",
+      "sha256": "41291a3d502a6489639170127d974e7dc8fe178fc1924b0ba22faff29732f3c6"
+    },
+    {
+      "id": "brand.svg.tile.wraithflow.svg",
+      "kind": "svg",
+      "path": "packs/cybercore/brand/svg/tile/wraithflow.svg",
+      "sha256": "9d2c3941658304bf5cff7580c7d29e0a2ff7f9811cd9382a46e83567b28140f7"
+    }
+  ],
+  "provenance": {
+    "source": "https://github.com/cybercoretech/cybercore",
+    "author": "Cybercore Tech",
+    "reviewed": true
+  }
+}

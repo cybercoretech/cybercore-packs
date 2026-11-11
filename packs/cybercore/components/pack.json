@@ -1,6 +1,6 @@
 {
   "id": "cybercore.components",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "kind": "components-pack",
   "channel": "stable",
   "title": "Cybercore Components",
@@ -13,6 +13,12 @@
   "dependencies": [],
   "resources": [
     {
+      "id": "component.brand-vars.js",
+      "kind": "javascript",
+      "path": "packs/cybercore/components/brand-vars.js",
+      "sha256": "bf11255b80a9e62ff2e277f10a916c70b0a85eac55594e50b4ea0f7c18977432"
+    },
+    {
       "id": "component.chooser.css",
       "kind": "css",
       "path": "packs/cybercore/components/chooser.css",
@@ -22,7 +28,7 @@
       "id": "component.chooser.js",
       "kind": "javascript",
       "path": "packs/cybercore/components/chooser.js",
-      "sha256": "b712fae54ba1792ecb6f112f6fc429e9572fe6723950c81f837614b4a7b873ed"
+      "sha256": "fe3399cef71417642f5b05830cbc4ff8e92a9117debe3b5a0b899507b0cce63a"
     },
     {
       "id": "component.components.css",
